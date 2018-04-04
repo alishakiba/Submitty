@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/mpeveler/Github/Submitty/Submitty/site/app/Views</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../.css/style.css" rel="stylesheet" type="text/css">
+  <!--[if lt IE 9]>
+  <script src="../.js/html5shiv.min.js"></script>
+  <script src="../.js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../index.html">/Users/mpeveler/Github/Submitty/Submitty/site/app</a></li>
+        <li><a href="index.html">Views</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AbstractView.php.html#7">Submitty\Submitty\Views\AbstractView</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Forum/ForumThreadView.php.html#10">Submitty\Submitty\Views\Forum\ForumThreadView</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Submission/RainbowGradesView.php.html#7">Submitty\Submitty\Views\Submission\RainbowGradesView</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Submission/HomeworkView.php.html#9">Submitty\Submitty\Views\Submission\HomeworkView</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NavigationView.php.html#8">Submitty\Submitty\Views\NavigationView</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MiscView.php.html#6">Submitty\Submitty\Views\MiscView</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageView.php.html#10">Submitty\Submitty\Views\HomePageView</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/SimpleGraderView.php.html#9">Submitty\Submitty\Views\Grading\SimpleGraderView</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderView.php.html#11">Submitty\Submitty\Views\Grading\ElectronicGraderView</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GlobalView.php.html#5">Submitty\Submitty\Views\GlobalView</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ErrorView.php.html#5">Submitty\Submitty\Views\ErrorView</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/AdminGradeableView.php.html#8">Submitty\Submitty\Views\Admin\AdminGradeableView</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AutoGradingView.php.html#9">Submitty\Submitty\Views\AutogradingView</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationView.php.html#5">Submitty\Submitty\Views\AuthenticationView</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/UsersView.php.html#8">Submitty\Submitty\Views\Admin\UsersView</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/ReportView.php.html#6">Submitty\Submitty\Views\Admin\ReportView</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/PlagiarismView.php.html#6">Submitty\Submitty\Views\Admin\PlagiarismView</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/LateDayView.php.html#7">Submitty\Submitty\Views\Admin\LateDayView</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/GradeableView.php.html#8">Submitty\Submitty\Views\Admin\GradeableView</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/ExtensionsView.php.html#7">Submitty\Submitty\Views\Admin\ExtensionsView</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/ConfigurationView.php.html#7">Submitty\Submitty\Views\Admin\ConfigurationView</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Submission/TeamView.php.html#8">Submitty\Submitty\Views\Submission\TeamView</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Grading/ElectronicGraderView.php.html#11">Submitty\Submitty\Views\Grading\ElectronicGraderView</a></td><td class="text-right">46872</td></tr>
+       <tr><td><a href="NavigationView.php.html#8">Submitty\Submitty\Views\NavigationView</a></td><td class="text-right">19460</td></tr>
+       <tr><td><a href="Submission/HomeworkView.php.html#9">Submitty\Submitty\Views\Submission\HomeworkView</a></td><td class="text-right">11556</td></tr>
+       <tr><td><a href="Admin/AdminGradeableView.php.html#8">Submitty\Submitty\Views\Admin\AdminGradeableView</a></td><td class="text-right">8742</td></tr>
+       <tr><td><a href="AutoGradingView.php.html#9">Submitty\Submitty\Views\AutogradingView</a></td><td class="text-right">7310</td></tr>
+       <tr><td><a href="Forum/ForumThreadView.php.html#10">Submitty\Submitty\Views\Forum\ForumThreadView</a></td><td class="text-right">3782</td></tr>
+       <tr><td><a href="Grading/SimpleGraderView.php.html#9">Submitty\Submitty\Views\Grading\SimpleGraderView</a></td><td class="text-right">3660</td></tr>
+       <tr><td><a href="Admin/UsersView.php.html#8">Submitty\Submitty\Views\Admin\UsersView</a></td><td class="text-right">930</td></tr>
+       <tr><td><a href="Submission/TeamView.php.html#8">Submitty\Submitty\Views\Submission\TeamView</a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="Admin/PlagiarismView.php.html#6">Submitty\Submitty\Views\Admin\PlagiarismView</a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="GlobalView.php.html#5">Submitty\Submitty\Views\GlobalView</a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="HomePageView.php.html#10">Submitty\Submitty\Views\HomePageView</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Admin/ConfigurationView.php.html#7">Submitty\Submitty\Views\Admin\ConfigurationView</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Admin/GradeableView.php.html#8">Submitty\Submitty\Views\Admin\GradeableView</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="ErrorView.php.html#5">Submitty\Submitty\Views\ErrorView</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Admin/LateDayView.php.html#7">Submitty\Submitty\Views\Admin\LateDayView</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="AuthenticationView.php.html#5">Submitty\Submitty\Views\AuthenticationView</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Admin/ExtensionsView.php.html#7">Submitty\Submitty\Views\Admin\ExtensionsView</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Submission/RainbowGradesView.php.html#7">Submitty\Submitty\Views\Submission\RainbowGradesView</a></td><td class="text-right">12</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AbstractView.php.html#11"><abbr title="Submitty\Submitty\Views\AbstractView::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/SimpleGraderView.php.html#18"><abbr title="Submitty\Submitty\Views\Grading\SimpleGraderView::simpleDisplay">simpleDisplay</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GlobalView.php.html#6"><abbr title="Submitty\Submitty\Views\GlobalView::header">header</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GlobalView.php.html#168"><abbr title="Submitty\Submitty\Views\GlobalView::footer">footer</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GlobalView.php.html#199"><abbr title="Submitty\Submitty\Views\GlobalView::invalidPage">invalidPage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderView.php.html#17"><abbr title="Submitty\Submitty\Views\Grading\ElectronicGraderView::statusPage">statusPage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderView.php.html#332"><abbr title="Submitty\Submitty\Views\Grading\ElectronicGraderView::detailsPage">detailsPage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderView.php.html#845"><abbr title="Submitty\Submitty\Views\Grading\ElectronicGraderView::adminTeamForm">adminTeamForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderView.php.html#890"><abbr title="Submitty\Submitty\Views\Grading\ElectronicGraderView::hwGradingPage">hwGradingPage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderView.php.html#1017"><abbr title="Submitty\Submitty\Views\Grading\ElectronicGraderView::add_files">add_files</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderView.php.html#1032"><abbr title="Submitty\Submitty\Views\Grading\ElectronicGraderView::display_files">display_files</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderView.php.html#1712"><abbr title="Submitty\Submitty\Views\Grading\ElectronicGraderView::popupStudents">popupStudents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/SimpleGraderView.php.html#332"><abbr title="Submitty\Submitty\Views\Grading\SimpleGraderView::displayPrintLab">displayPrintLab</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Forum/ForumThreadView.php.html#357"><abbr title="Submitty\Submitty\Views\Forum\ForumThreadView::createPost">createPost</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageView.php.html#16"><abbr title="Submitty\Submitty\Views\HomePageView::showHomePage">showHomePage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MiscView.php.html#7"><abbr title="Submitty\Submitty\Views\MiscView::displayFile">displayFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MiscView.php.html#15"><abbr title="Submitty\Submitty\Views\MiscView::sourceSettingsJS">sourceSettingsJS</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MiscView.php.html#54"><abbr title="Submitty\Submitty\Views\MiscView::displayCode">displayCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NavigationView.php.html#9"><abbr title="Submitty\Submitty\Views\NavigationView::noAccessCourse">noAccessCourse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NavigationView.php.html#18"><abbr title="Submitty\Submitty\Views\NavigationView::showGradeables">showGradeables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Submission/HomeworkView.php.html#11"><abbr title="Submitty\Submitty\Views\Submission\HomeworkView::noGradeable">noGradeable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Submission/HomeworkView.php.html#35"><abbr title="Submitty\Submitty\Views\Submission\HomeworkView::showGradeableError">showGradeableError</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Submission/HomeworkView.php.html#55"><abbr title="Submitty\Submitty\Views\Submission\HomeworkView::showGradeable">showGradeable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Submission/RainbowGradesView.php.html#8"><abbr title="Submitty\Submitty\Views\Submission\RainbowGradesView::showGrades">showGrades</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Forum/ForumThreadView.php.html#536"><abbr title="Submitty\Submitty\Views\Forum\ForumThreadView::createThread">createThread</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Forum/ForumThreadView.php.html#21"><abbr title="Submitty\Submitty\Views\Forum\ForumThreadView::showForumThreads">showForumThreads</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/AdminGradeableView.php.html#12"><abbr title="Submitty\Submitty\Views\Admin\AdminGradeableView::show_add_gradeable">show_add_gradeable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/UsersView.php.html#13"><abbr title="Submitty\Submitty\Views\Admin\UsersView::listStudents">listStudents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/AdminGradeableView.php.html#846"><abbr title="Submitty\Submitty\Views\Admin\AdminGradeableView::display_graders">display_graders</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/ConfigurationView.php.html#8"><abbr title="Submitty\Submitty\Views\Admin\ConfigurationView::viewConfig">viewConfig</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/ExtensionsView.php.html#8"><abbr title="Submitty\Submitty\Views\Admin\ExtensionsView::displayExtensions">displayExtensions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/GradeableView.php.html#9"><abbr title="Submitty\Submitty\Views\Admin\GradeableView::uploadConfigForm">uploadConfigForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/GradeableView.php.html#77"><abbr title="Submitty\Submitty\Views\Admin\GradeableView::display_files">display_files</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/LateDayView.php.html#8"><abbr title="Submitty\Submitty\Views\Admin\LateDayView::displayLateDays">displayLateDays</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/PlagiarismView.php.html#7"><abbr title="Submitty\Submitty\Views\Admin\PlagiarismView::plagiarismCompare">plagiarismCompare</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/PlagiarismView.php.html#24"><abbr title="Submitty\Submitty\Views\Admin\PlagiarismView::plagiarismIndex">plagiarismIndex</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/PlagiarismView.php.html#41"><abbr title="Submitty\Submitty\Views\Admin\PlagiarismView::plagiarismTree">plagiarismTree</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/ReportView.php.html#7"><abbr title="Submitty\Submitty\Views\Admin\ReportView::showReportUpdates">showReportUpdates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/UsersView.php.html#105"><abbr title="Submitty\Submitty\Views\Admin\UsersView::listGraders">listGraders</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Forum/ForumThreadView.php.html#13"><abbr title="Submitty\Submitty\Views\Forum\ForumThreadView::forumAccess">forumAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/UsersView.php.html#195"><abbr title="Submitty\Submitty\Views\Admin\UsersView::userForm">userForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/UsersView.php.html#298"><abbr title="Submitty\Submitty\Views\Admin\UsersView::rotatingUserForm">rotatingUserForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/UsersView.php.html#395"><abbr title="Submitty\Submitty\Views\Admin\UsersView::graderListForm">graderListForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/UsersView.php.html#441"><abbr title="Submitty\Submitty\Views\Admin\UsersView::classListForm">classListForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationView.php.html#6"><abbr title="Submitty\Submitty\Views\AuthenticationView::loginForm">loginForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AutoGradingView.php.html#17"><abbr title="Submitty\Submitty\Views\AutogradingView::showResults">showResults</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AutoGradingView.php.html#382"><abbr title="Submitty\Submitty\Views\AutogradingView::showVersionChoice">showVersionChoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ErrorView.php.html#6"><abbr title="Submitty\Submitty\Views\ErrorView::exceptionPage">exceptionPage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ErrorView.php.html#57"><abbr title="Submitty\Submitty\Views\ErrorView::invalidPage">invalidPage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ErrorView.php.html#65"><abbr title="Submitty\Submitty\Views\ErrorView::errorPage">errorPage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ErrorView.php.html#121"><abbr title="Submitty\Submitty\Views\ErrorView::noGradeable">noGradeable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Submission/TeamView.php.html#18"><abbr title="Submitty\Submitty\Views\Submission\TeamView::showTeamPage">showTeamPage</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="NavigationView.php.html#18"><abbr title="Submitty\Submitty\Views\NavigationView::showGradeables">showGradeables</abbr></a></td><td class="text-right">19182</td></tr>
+       <tr><td><a href="Submission/HomeworkView.php.html#55"><abbr title="Submitty\Submitty\Views\Submission\HomeworkView::showGradeable">showGradeable</abbr></a></td><td class="text-right">10920</td></tr>
+       <tr><td><a href="Admin/AdminGradeableView.php.html#12"><abbr title="Submitty\Submitty\Views\Admin\AdminGradeableView::show_add_gradeable">show_add_gradeable</abbr></a></td><td class="text-right">7656</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderView.php.html#890"><abbr title="Submitty\Submitty\Views\Grading\ElectronicGraderView::hwGradingPage">hwGradingPage</abbr></a></td><td class="text-right">6642</td></tr>
+       <tr><td><a href="AutoGradingView.php.html#17"><abbr title="Submitty\Submitty\Views\AutogradingView::showResults">showResults</abbr></a></td><td class="text-right">6006</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderView.php.html#332"><abbr title="Submitty\Submitty\Views\Grading\ElectronicGraderView::detailsPage">detailsPage</abbr></a></td><td class="text-right">5402</td></tr>
+       <tr><td><a href="Grading/SimpleGraderView.php.html#18"><abbr title="Submitty\Submitty\Views\Grading\SimpleGraderView::simpleDisplay">simpleDisplay</abbr></a></td><td class="text-right">2756</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderView.php.html#17"><abbr title="Submitty\Submitty\Views\Grading\ElectronicGraderView::statusPage">statusPage</abbr></a></td><td class="text-right">2162</td></tr>
+       <tr><td><a href="Forum/ForumThreadView.php.html#21"><abbr title="Submitty\Submitty\Views\Forum\ForumThreadView::showForumThreads">showForumThreads</abbr></a></td><td class="text-right">1482</td></tr>
+       <tr><td><a href="Submission/TeamView.php.html#18"><abbr title="Submitty\Submitty\Views\Submission\TeamView::showTeamPage">showTeamPage</abbr></a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="Forum/ForumThreadView.php.html#357"><abbr title="Submitty\Submitty\Views\Forum\ForumThreadView::createPost">createPost</abbr></a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="GlobalView.php.html#6"><abbr title="Submitty\Submitty\Views\GlobalView::header">header</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="HomePageView.php.html#16"><abbr title="Submitty\Submitty\Views\HomePageView::showHomePage">showHomePage</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Admin/PlagiarismView.php.html#7"><abbr title="Submitty\Submitty\Views\Admin\PlagiarismView::plagiarismCompare">plagiarismCompare</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Admin/UsersView.php.html#13"><abbr title="Submitty\Submitty\Views\Admin\UsersView::listStudents">listStudents</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Admin/ConfigurationView.php.html#8"><abbr title="Submitty\Submitty\Views\Admin\ConfigurationView::viewConfig">viewConfig</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="AutoGradingView.php.html#382"><abbr title="Submitty\Submitty\Views\AutogradingView::showVersionChoice">showVersionChoice</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Admin/PlagiarismView.php.html#24"><abbr title="Submitty\Submitty\Views\Admin\PlagiarismView::plagiarismIndex">plagiarismIndex</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Admin/UsersView.php.html#105"><abbr title="Submitty\Submitty\Views\Admin\UsersView::listGraders">listGraders</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Grading/SimpleGraderView.php.html#332"><abbr title="Submitty\Submitty\Views\Grading\SimpleGraderView::displayPrintLab">displayPrintLab</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Admin/AdminGradeableView.php.html#846"><abbr title="Submitty\Submitty\Views\Admin\AdminGradeableView::display_graders">display_graders</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderView.php.html#1032"><abbr title="Submitty\Submitty\Views\Grading\ElectronicGraderView::display_files">display_files</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Admin/UsersView.php.html#298"><abbr title="Submitty\Submitty\Views\Admin\UsersView::rotatingUserForm">rotatingUserForm</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Admin/UsersView.php.html#195"><abbr title="Submitty\Submitty\Views\Admin\UsersView::userForm">userForm</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Admin/LateDayView.php.html#8"><abbr title="Submitty\Submitty\Views\Admin\LateDayView::displayLateDays">displayLateDays</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderView.php.html#845"><abbr title="Submitty\Submitty\Views\Grading\ElectronicGraderView::adminTeamForm">adminTeamForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Admin/GradeableView.php.html#77"><abbr title="Submitty\Submitty\Views\Admin\GradeableView::display_files">display_files</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderView.php.html#1017"><abbr title="Submitty\Submitty\Views\Grading\ElectronicGraderView::add_files">add_files</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Admin/ExtensionsView.php.html#8"><abbr title="Submitty\Submitty\Views\Admin\ExtensionsView::displayExtensions">displayExtensions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Admin/GradeableView.php.html#9"><abbr title="Submitty\Submitty\Views\Admin\GradeableView::uploadConfigForm">uploadConfigForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Submission/RainbowGradesView.php.html#8"><abbr title="Submitty\Submitty\Views\Submission\RainbowGradesView::showGrades">showGrades</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="GlobalView.php.html#168"><abbr title="Submitty\Submitty\Views\GlobalView::footer">footer</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Forum/ForumThreadView.php.html#536"><abbr title="Submitty\Submitty\Views\Forum\ForumThreadView::createThread">createThread</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Admin/PlagiarismView.php.html#41"><abbr title="Submitty\Submitty\Views\Admin\PlagiarismView::plagiarismTree">plagiarismTree</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AuthenticationView.php.html#6"><abbr title="Submitty\Submitty\Views\AuthenticationView::loginForm">loginForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ErrorView.php.html#65"><abbr title="Submitty\Submitty\Views\ErrorView::errorPage">errorPage</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Submission/HomeworkView.php.html#11"><abbr title="Submitty\Submitty\Views\Submission\HomeworkView::noGradeable">noGradeable</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Admin/UsersView.php.html#441"><abbr title="Submitty\Submitty\Views\Admin\UsersView::classListForm">classListForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Admin/UsersView.php.html#395"><abbr title="Submitty\Submitty\Views\Admin\UsersView::graderListForm">graderListForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ErrorView.php.html#121"><abbr title="Submitty\Submitty\Views\ErrorView::noGradeable">noGradeable</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 5.3.0</a> using <a href="https://secure.php.net/" target="_top">PHP 7.2.2</a> with <a href="https://xdebug.org/">Xdebug 2.6.0</a> and <a href="https://phpunit.de/">PHPUnit 6.5.7</a> at Wed Apr 4 15:48:40 EDT 2018.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../.js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../.js/holder.min.js" type="text/javascript"></script>
+  <script src="../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([22,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([52,0,0,0,0,0,0,0,0,0,0,3], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"AbstractView.php.html#7\">Submitty\\Submitty\\Views\\AbstractView<\/a>"],[0,93,"<a href=\"Admin\/AdminGradeableView.php.html#8\">Submitty\\Submitty\\Views\\Admin\\AdminGradeableView<\/a>"],[0,9,"<a href=\"Admin\/ConfigurationView.php.html#7\">Submitty\\Submitty\\Views\\Admin\\ConfigurationView<\/a>"],[0,3,"<a href=\"Admin\/ExtensionsView.php.html#7\">Submitty\\Submitty\\Views\\Admin\\ExtensionsView<\/a>"],[0,7,"<a href=\"Admin\/GradeableView.php.html#8\">Submitty\\Submitty\\Views\\Admin\\GradeableView<\/a>"],[0,5,"<a href=\"Admin\/LateDayView.php.html#7\">Submitty\\Submitty\\Views\\Admin\\LateDayView<\/a>"],[0,21,"<a href=\"Admin\/PlagiarismView.php.html#6\">Submitty\\Submitty\\Views\\Admin\\PlagiarismView<\/a>"],[0,1,"<a href=\"Admin\/ReportView.php.html#6\">Submitty\\Submitty\\Views\\Admin\\ReportView<\/a>"],[0,30,"<a href=\"Admin\/UsersView.php.html#8\">Submitty\\Submitty\\Views\\Admin\\UsersView<\/a>"],[0,3,"<a href=\"AuthenticationView.php.html#5\">Submitty\\Submitty\\Views\\AuthenticationView<\/a>"],[0,85,"<a href=\"AutoGradingView.php.html#9\">Submitty\\Submitty\\Views\\AutogradingView<\/a>"],[0,6,"<a href=\"ErrorView.php.html#5\">Submitty\\Submitty\\Views\\ErrorView<\/a>"],[0,61,"<a href=\"Forum\/ForumThreadView.php.html#10\">Submitty\\Submitty\\Views\\Forum\\ForumThreadView<\/a>"],[0,18,"<a href=\"GlobalView.php.html#5\">Submitty\\Submitty\\Views\\GlobalView<\/a>"],[0,216,"<a href=\"Grading\/ElectronicGraderView.php.html#11\">Submitty\\Submitty\\Views\\Grading\\ElectronicGraderView<\/a>"],[0,60,"<a href=\"Grading\/SimpleGraderView.php.html#9\">Submitty\\Submitty\\Views\\Grading\\SimpleGraderView<\/a>"],[0,12,"<a href=\"HomePageView.php.html#10\">Submitty\\Submitty\\Views\\HomePageView<\/a>"],[0,3,"<a href=\"MiscView.php.html#6\">Submitty\\Submitty\\Views\\MiscView<\/a>"],[0,139,"<a href=\"NavigationView.php.html#8\">Submitty\\Submitty\\Views\\NavigationView<\/a>"],[0,107,"<a href=\"Submission\/HomeworkView.php.html#9\">Submitty\\Submitty\\Views\\Submission\\HomeworkView<\/a>"],[0,3,"<a href=\"Submission\/RainbowGradesView.php.html#7\">Submitty\\Submitty\\Views\\Submission\\RainbowGradesView<\/a>"],[0,22,"<a href=\"Submission\/TeamView.php.html#8\">Submitty\\Submitty\\Views\\Submission\\TeamView<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"AbstractView.php.html#11\">Submitty\\Submitty\\Views\\AbstractView::__construct<\/a>"],[0,87,"<a href=\"Admin\/AdminGradeableView.php.html#12\">Submitty\\Submitty\\Views\\Admin\\AdminGradeableView::show_add_gradeable<\/a>"],[0,6,"<a href=\"Admin\/AdminGradeableView.php.html#846\">Submitty\\Submitty\\Views\\Admin\\AdminGradeableView::display_graders<\/a>"],[0,9,"<a href=\"Admin\/ConfigurationView.php.html#8\">Submitty\\Submitty\\Views\\Admin\\ConfigurationView::viewConfig<\/a>"],[0,3,"<a href=\"Admin\/ExtensionsView.php.html#8\">Submitty\\Submitty\\Views\\Admin\\ExtensionsView::displayExtensions<\/a>"],[0,3,"<a href=\"Admin\/GradeableView.php.html#9\">Submitty\\Submitty\\Views\\Admin\\GradeableView::uploadConfigForm<\/a>"],[0,4,"<a href=\"Admin\/GradeableView.php.html#77\">Submitty\\Submitty\\Views\\Admin\\GradeableView::display_files<\/a>"],[0,5,"<a href=\"Admin\/LateDayView.php.html#8\">Submitty\\Submitty\\Views\\Admin\\LateDayView::displayLateDays<\/a>"],[0,11,"<a href=\"Admin\/PlagiarismView.php.html#7\">Submitty\\Submitty\\Views\\Admin\\PlagiarismView::plagiarismCompare<\/a>"],[0,7,"<a href=\"Admin\/PlagiarismView.php.html#24\">Submitty\\Submitty\\Views\\Admin\\PlagiarismView::plagiarismIndex<\/a>"],[0,3,"<a href=\"Admin\/PlagiarismView.php.html#41\">Submitty\\Submitty\\Views\\Admin\\PlagiarismView::plagiarismTree<\/a>"],[0,1,"<a href=\"Admin\/ReportView.php.html#7\">Submitty\\Submitty\\Views\\Admin\\ReportView::showReportUpdates<\/a>"],[0,9,"<a href=\"Admin\/UsersView.php.html#13\">Submitty\\Submitty\\Views\\Admin\\UsersView::listStudents<\/a>"],[0,7,"<a href=\"Admin\/UsersView.php.html#105\">Submitty\\Submitty\\Views\\Admin\\UsersView::listGraders<\/a>"],[0,5,"<a href=\"Admin\/UsersView.php.html#195\">Submitty\\Submitty\\Views\\Admin\\UsersView::userForm<\/a>"],[0,5,"<a href=\"Admin\/UsersView.php.html#298\">Submitty\\Submitty\\Views\\Admin\\UsersView::rotatingUserForm<\/a>"],[0,2,"<a href=\"Admin\/UsersView.php.html#395\">Submitty\\Submitty\\Views\\Admin\\UsersView::graderListForm<\/a>"],[0,2,"<a href=\"Admin\/UsersView.php.html#441\">Submitty\\Submitty\\Views\\Admin\\UsersView::classListForm<\/a>"],[0,3,"<a href=\"AuthenticationView.php.html#6\">Submitty\\Submitty\\Views\\AuthenticationView::loginForm<\/a>"],[0,77,"<a href=\"AutoGradingView.php.html#17\">Submitty\\Submitty\\Views\\AutogradingView::showResults<\/a>"],[0,8,"<a href=\"AutoGradingView.php.html#382\">Submitty\\Submitty\\Views\\AutogradingView::showVersionChoice<\/a>"],[0,1,"<a href=\"ErrorView.php.html#6\">Submitty\\Submitty\\Views\\ErrorView::exceptionPage<\/a>"],[0,1,"<a href=\"ErrorView.php.html#57\">Submitty\\Submitty\\Views\\ErrorView::invalidPage<\/a>"],[0,2,"<a href=\"ErrorView.php.html#65\">Submitty\\Submitty\\Views\\ErrorView::errorPage<\/a>"],[0,2,"<a href=\"ErrorView.php.html#121\">Submitty\\Submitty\\Views\\ErrorView::noGradeable<\/a>"],[0,1,"<a href=\"Forum\/ForumThreadView.php.html#13\">Submitty\\Submitty\\Views\\Forum\\ForumThreadView::forumAccess<\/a>"],[0,38,"<a href=\"Forum\/ForumThreadView.php.html#21\">Submitty\\Submitty\\Views\\Forum\\ForumThreadView::showForumThreads<\/a>"],[0,19,"<a href=\"Forum\/ForumThreadView.php.html#357\">Submitty\\Submitty\\Views\\Forum\\ForumThreadView::createPost<\/a>"],[0,3,"<a href=\"Forum\/ForumThreadView.php.html#536\">Submitty\\Submitty\\Views\\Forum\\ForumThreadView::createThread<\/a>"],[0,14,"<a href=\"GlobalView.php.html#6\">Submitty\\Submitty\\Views\\GlobalView::header<\/a>"],[0,3,"<a href=\"GlobalView.php.html#168\">Submitty\\Submitty\\Views\\GlobalView::footer<\/a>"],[0,1,"<a href=\"GlobalView.php.html#199\">Submitty\\Submitty\\Views\\GlobalView::invalidPage<\/a>"],[0,46,"<a href=\"Grading\/ElectronicGraderView.php.html#17\">Submitty\\Submitty\\Views\\Grading\\ElectronicGraderView::statusPage<\/a>"],[100,1,"<a href=\"Grading\/ElectronicGraderView.php.html#169\">Submitty\\Submitty\\Views\\Grading\\ElectronicGraderView::anonymousFunction:169#1139<\/a>"],[0,73,"<a href=\"Grading\/ElectronicGraderView.php.html#332\">Submitty\\Submitty\\Views\\Grading\\ElectronicGraderView::detailsPage<\/a>"],[100,1,"<a href=\"Grading\/ElectronicGraderView.php.html#515\">Submitty\\Submitty\\Views\\Grading\\ElectronicGraderView::anonymousFunction:515#3261<\/a>"],[0,4,"<a href=\"Grading\/ElectronicGraderView.php.html#845\">Submitty\\Submitty\\Views\\Grading\\ElectronicGraderView::adminTeamForm<\/a>"],[0,81,"<a href=\"Grading\/ElectronicGraderView.php.html#890\">Submitty\\Submitty\\Views\\Grading\\ElectronicGraderView::hwGradingPage<\/a>"],[0,4,"<a href=\"Grading\/ElectronicGraderView.php.html#1017\">Submitty\\Submitty\\Views\\Grading\\ElectronicGraderView::add_files<\/a>"],[0,5,"<a href=\"Grading\/ElectronicGraderView.php.html#1032\">Submitty\\Submitty\\Views\\Grading\\ElectronicGraderView::display_files<\/a>"],[0,1,"<a href=\"Grading\/ElectronicGraderView.php.html#1712\">Submitty\\Submitty\\Views\\Grading\\ElectronicGraderView::popupStudents<\/a>"],[0,52,"<a href=\"Grading\/SimpleGraderView.php.html#18\">Submitty\\Submitty\\Views\\Grading\\SimpleGraderView::simpleDisplay<\/a>"],[100,1,"<a href=\"Grading\/SimpleGraderView.php.html#201\">Submitty\\Submitty\\Views\\Grading\\SimpleGraderView::anonymousFunction:201#1394<\/a>"],[0,7,"<a href=\"Grading\/SimpleGraderView.php.html#332\">Submitty\\Submitty\\Views\\Grading\\SimpleGraderView::displayPrintLab<\/a>"],[0,12,"<a href=\"HomePageView.php.html#16\">Submitty\\Submitty\\Views\\HomePageView::showHomePage<\/a>"],[0,1,"<a href=\"MiscView.php.html#7\">Submitty\\Submitty\\Views\\MiscView::displayFile<\/a>"],[0,1,"<a href=\"MiscView.php.html#15\">Submitty\\Submitty\\Views\\MiscView::sourceSettingsJS<\/a>"],[0,1,"<a href=\"MiscView.php.html#54\">Submitty\\Submitty\\Views\\MiscView::displayCode<\/a>"],[0,1,"<a href=\"NavigationView.php.html#9\">Submitty\\Submitty\\Views\\NavigationView::noAccessCourse<\/a>"],[0,138,"<a href=\"NavigationView.php.html#18\">Submitty\\Submitty\\Views\\NavigationView::showGradeables<\/a>"],[0,2,"<a href=\"Submission\/HomeworkView.php.html#11\">Submitty\\Submitty\\Views\\Submission\\HomeworkView::noGradeable<\/a>"],[0,1,"<a href=\"Submission\/HomeworkView.php.html#35\">Submitty\\Submitty\\Views\\Submission\\HomeworkView::showGradeableError<\/a>"],[0,104,"<a href=\"Submission\/HomeworkView.php.html#55\">Submitty\\Submitty\\Views\\Submission\\HomeworkView::showGradeable<\/a>"],[0,3,"<a href=\"Submission\/RainbowGradesView.php.html#8\">Submitty\\Submitty\\Views\\Submission\\RainbowGradesView::showGrades<\/a>"],[0,22,"<a href=\"Submission\/TeamView.php.html#18\">Submitty\\Submitty\\Views\\Submission\\TeamView::showTeamPage<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

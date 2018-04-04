@@ -1,0 +1,17 @@
+<?php
+
+namespace Submitty\Submitty\Exceptions;
+
+class FileNotFoundException extends IOException {
+    public function __construct($message = null, $path = null, $code = 0, $previous = null) {
+        if ($message === null) {
+            if ($path === null) {
+                $message = 'File could not be found';
+            }
+            else {
+                $message = "File '{$path}' could not be found";
+            }
+        }
+        parent::__construct($message, array('path' => $path), $code, $previous);
+    }
+}

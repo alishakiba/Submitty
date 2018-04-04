@@ -1,11 +1,13 @@
 <?php
 
-use app\exceptions\BaseException;
-use app\libraries\AutoLoader;
-use app\libraries\Core;
-use app\libraries\ExceptionHandler;
-use app\libraries\Logger;
-use app\libraries\Utils;
+use Submitty\Submitty\Exceptions\BaseException;
+use Submitty\Submitty\Libraries\Core;
+use Submitty\Submitty\Libraries\ExceptionHandler;
+use Submitty\Submitty\Libraries\Logger;
+use Submitty\Submitty\Libraries\Utils;
+
+// Setup composer autoloader
+require_once(__DIR__.'../vendor/autoload.php');
 
 /*
  * The user's umask is ignored for the user running php, so we need
@@ -23,13 +25,6 @@ session_start();
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-/*
- * Load up the autoloader and register the /app directory to the application
- * such that we can easily and quickly load classes on the fly as needed. All
- * classes should follow the PSR-4 namespace naming conventions
- */
-require_once(__DIR__ . "/../app/libraries/AutoLoader.php");
-AutoLoader::registerDirectory(__DIR__ . "/../app", true, "app");
 $core = new Core();
 /**
  * Register custom expection and error handlers that will get run anytime our application
@@ -44,7 +39,7 @@ function exception_handler($throwable) {
     $message = ExceptionHandler::handleException($throwable);
 
     // Any exceptions that always get shown we need to make sure to escape, especially for production
-    if (is_a($throwable, '\app\exceptions\BaseException')) {
+    if (is_a($throwable, '\Submitty\Submitty\exceptions\BaseException')) {
         /** @var BaseException $throwable */
         if ($throwable->displayMessage()) {
             $message = htmlentities($message, ENT_QUOTES);
@@ -221,43 +216,43 @@ if (empty($_REQUEST['component']) && $core->getUser() !== null) {
 *********************************************/
 switch($_REQUEST['component']) {
     case 'admin':
-        $control = new app\controllers\AdminController($core);
+        $control = new Submitty\Submitty\Controllers\AdminController($core);
         $control->run();
         break;
     case 'authentication':
-        $control = new app\controllers\AuthenticationController($core, $logged_in);
+        $control = new Submitty\Submitty\Controllers\AuthenticationController($core, $logged_in);
         $control->run();
         break;
     case 'grading':
-        $control = new app\controllers\GradingController($core);
+        $control = new Submitty\Submitty\Controllers\GradingController($core);
         $control->run();
         break;
     case 'home':
-        $control = new app\controllers\HomePageController($core);
+        $control = new Submitty\Submitty\Controllers\HomePageController($core);
         $control->run();
         break;
     case 'misc':
-        $control = new app\controllers\MiscController($core);
+        $control = new Submitty\Submitty\Controllers\MiscController($core);
         $control->run();
         break;
     case 'student':
-        $control = new app\controllers\StudentController($core);
+        $control = new Submitty\Submitty\Controllers\StudentController($core);
         $control->run();
         break;
     case 'submission':
-        $control = new app\controllers\StudentController($core);
+        $control = new Submitty\Submitty\Controllers\StudentController($core);
         $control->run();
         break;
     case 'navigation':
-        $control = new app\controllers\NavigationController($core);
+        $control = new Submitty\Submitty\Controllers\NavigationController($core);
         $control->run();
         break;
     case 'forum':
-        $control = new app\controllers\forum\ForumController($core);
+        $control = new Submitty\Submitty\Controllers\Forum\ForumController($core);
         $control->run();
         break;
     default:
-        $control = new app\controllers\AuthenticationController($core, $logged_in);
+        $control = new Submitty\Submitty\Controllers\AuthenticationController($core, $logged_in);
         $control->run();
         break;
 }

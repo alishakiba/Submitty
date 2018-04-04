@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/mpeveler/Github/Submitty/Submitty/site/app/Controllers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../.css/style.css" rel="stylesheet" type="text/css">
+  <!--[if lt IE 9]>
+  <script src="../.js/html5shiv.min.js"></script>
+  <script src="../.js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../index.html">/Users/mpeveler/Github/Submitty/Submitty/site/app</a></li>
+        <li><a href="index.html">Controllers</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Admin/AdminGradeableController.php.html#15">Submitty\Submitty\Controllers\Admin\AdminGradeableController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/ConfigurationController.php.html#10">Submitty\Submitty\Controllers\Admin\ConfigurationController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Student/TeamController.php.html#9">Submitty\Submitty\Controllers\Student\TeamController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Student/RainbowGradesController.php.html#9">Submitty\Submitty\Controllers\Student\RainbowGradesController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NavigationController.php.html#16">Submitty\Submitty\Controllers\NavigationController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MiscController.php.html#9">Submitty\Submitty\Controllers\MiscController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageController.php.html#15">Submitty\Submitty\Controllers\HomePageController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GradingController.php.html#10">Submitty\Submitty\Controllers\GradingController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/SimpleGraderController.php.html#8">Submitty\Submitty\Controllers\Grading\SimpleGraderController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderController.php.html#14">Submitty\Submitty\Controllers\Grading\ElectronicGraderController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Forum/ForumController.php.html#17">Submitty\Submitty\Controllers\Forum\ForumController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationController.php.html#16">Submitty\Submitty\Controllers\AuthenticationController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AdminController.php.html#17">Submitty\Submitty\Controllers\AdminController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/UsersController.php.html#13">Submitty\Submitty\Controllers\Admin\UsersController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/ReportController.php.html#18">Submitty\Submitty\Controllers\Admin\ReportController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/PlagiarismController.php.html#8">Submitty\Submitty\Controllers\Admin\PlagiarismController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/LateController.php.html#8">Submitty\Submitty\Controllers\Admin\LateController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/GradeableController.php.html#8">Submitty\Submitty\Controllers\Admin\GradeableController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StudentController.php.html#9">Submitty\Submitty\Controllers\StudentController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Student/SubmissionController.php.html#19">Submitty\Submitty\Controllers\Student\SubmissionController</a></td><td class="text-right">45%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Grading/ElectronicGraderController.php.html#14">Submitty\Submitty\Controllers\Grading\ElectronicGraderController</a></td><td class="text-right">58322</td></tr>
+       <tr><td><a href="Admin/UsersController.php.html#13">Submitty\Submitty\Controllers\Admin\UsersController</a></td><td class="text-right">22650</td></tr>
+       <tr><td><a href="Admin/AdminGradeableController.php.html#15">Submitty\Submitty\Controllers\Admin\AdminGradeableController</a></td><td class="text-right">20306</td></tr>
+       <tr><td><a href="Student/SubmissionController.php.html#19">Submitty\Submitty\Controllers\Student\SubmissionController</a></td><td class="text-right">9699</td></tr>
+       <tr><td><a href="Student/TeamController.php.html#9">Submitty\Submitty\Controllers\Student\TeamController</a></td><td class="text-right">5256</td></tr>
+       <tr><td><a href="Grading/SimpleGraderController.php.html#8">Submitty\Submitty\Controllers\Grading\SimpleGraderController</a></td><td class="text-right">4422</td></tr>
+       <tr><td><a href="MiscController.php.html#9">Submitty\Submitty\Controllers\MiscController</a></td><td class="text-right">4422</td></tr>
+       <tr><td><a href="Forum/ForumController.php.html#17">Submitty\Submitty\Controllers\Forum\ForumController</a></td><td class="text-right">2862</td></tr>
+       <tr><td><a href="Admin/LateController.php.html#8">Submitty\Submitty\Controllers\Admin\LateController</a></td><td class="text-right">2450</td></tr>
+       <tr><td><a href="Admin/ReportController.php.html#18">Submitty\Submitty\Controllers\Admin\ReportController</a></td><td class="text-right">870</td></tr>
+       <tr><td><a href="AuthenticationController.php.html#16">Submitty\Submitty\Controllers\AuthenticationController</a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="Admin/ConfigurationController.php.html#10">Submitty\Submitty\Controllers\Admin\ConfigurationController</a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="Admin/GradeableController.php.html#8">Submitty\Submitty\Controllers\Admin\GradeableController</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="HomePageController.php.html#15">Submitty\Submitty\Controllers\HomePageController</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="AdminController.php.html#17">Submitty\Submitty\Controllers\AdminController</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="NavigationController.php.html#16">Submitty\Submitty\Controllers\NavigationController</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Admin/PlagiarismController.php.html#8">Submitty\Submitty\Controllers\Admin\PlagiarismController</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="StudentController.php.html#9">Submitty\Submitty\Controllers\StudentController</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="GradingController.php.html#10">Submitty\Submitty\Controllers\GradingController</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Student/RainbowGradesController.php.html#9">Submitty\Submitty\Controllers\Student\RainbowGradesController</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Admin/AdminGradeableController.php.html#16"><abbr title="Submitty\Submitty\Controllers\Admin\AdminGradeableController::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderController.php.html#895"><abbr title="Submitty\Submitty\Controllers\Grading\ElectronicGraderController::getMarkDetails">getMarkDetails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageController.php.html#25"><abbr title="Submitty\Submitty\Controllers\HomePageController::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageController.php.html#21"><abbr title="Submitty\Submitty\Controllers\HomePageController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GradingController.php.html#12"><abbr title="Submitty\Submitty\Controllers\GradingController::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/SimpleGraderController.php.html#229"><abbr title="Submitty\Submitty\Controllers\Grading\SimpleGraderController::UploadCSV">UploadCSV</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/SimpleGraderController.php.html#166"><abbr title="Submitty\Submitty\Controllers\Grading\SimpleGraderController::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/SimpleGraderController.php.html#105"><abbr title="Submitty\Submitty\Controllers\Grading\SimpleGraderController::grade">grade</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/SimpleGraderController.php.html#37"><abbr title="Submitty\Submitty\Controllers\Grading\SimpleGraderController::printLab">printLab</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/SimpleGraderController.php.html#9"><abbr title="Submitty\Submitty\Controllers\Grading\SimpleGraderController::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderController.php.html#978"><abbr title="Submitty\Submitty\Controllers\Grading\ElectronicGraderController::getStats">getStats</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderController.php.html#950"><abbr title="Submitty\Submitty\Controllers\Grading\ElectronicGraderController::getUsersThatGotTheMark">getUsersThatGotTheMark</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderController.php.html#941"><abbr title="Submitty\Submitty\Controllers\Grading\ElectronicGraderController::getGradeableComment">getGradeableComment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderController.php.html#885"><abbr title="Submitty\Submitty\Controllers\Grading\ElectronicGraderController::saveGradeableComment">saveGradeableComment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageController.php.html#55"><abbr title="Submitty\Submitty\Controllers\HomePageController::changeUserName">changeUserName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderController.php.html#856"><abbr title="Submitty\Submitty\Controllers\Grading\ElectronicGraderController::addOneMark">addOneMark</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderController.php.html#672"><abbr title="Submitty\Submitty\Controllers\Grading\ElectronicGraderController::saveSingleComponent">saveSingleComponent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderController.php.html#528"><abbr title="Submitty\Submitty\Controllers\Grading\ElectronicGraderController::showGrading">showGrading</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderController.php.html#457"><abbr title="Submitty\Submitty\Controllers\Grading\ElectronicGraderController::createTeamWithLeaderAndUsers">createTeamWithLeaderAndUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderController.php.html#353"><abbr title="Submitty\Submitty\Controllers\Grading\ElectronicGraderController::adminTeamSubmit">adminTeamSubmit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderController.php.html#205"><abbr title="Submitty\Submitty\Controllers\Grading\ElectronicGraderController::showDetails">showDetails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderController.php.html#53"><abbr title="Submitty\Submitty\Controllers\Grading\ElectronicGraderController::showStatus">showStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderController.php.html#15"><abbr title="Submitty\Submitty\Controllers\Grading\ElectronicGraderController::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Forum/ForumController.php.html#228"><abbr title="Submitty\Submitty\Controllers\Forum\ForumController::getEditPostContent">getEditPostContent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Forum/ForumController.php.html#224"><abbr title="Submitty\Submitty\Controllers\Forum\ForumController::showCreateThread">showCreateThread</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/AdminGradeableController.php.html#43"><abbr title="Submitty\Submitty\Controllers\Admin\AdminGradeableController::uploadNewTemplate">uploadNewTemplate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageController.php.html#42"><abbr title="Submitty\Submitty\Controllers\HomePageController::changePassword">changePassword</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageController.php.html#83"><abbr title="Submitty\Submitty\Controllers\HomePageController::showHomepage">showHomepage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Forum/ForumController.php.html#160"><abbr title="Submitty\Submitty\Controllers\Forum\ForumController::alterAnnouncement">alterAnnouncement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Student/SubmissionController.php.html#248"><abbr title="Submitty\Submitty\Controllers\Student\SubmissionController::ajaxBulkUpload">ajaxBulkUpload</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Student/TeamController.php.html#346"><abbr title="Submitty\Submitty\Controllers\Student\TeamController::showPage">showPage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Student/TeamController.php.html#327"><abbr title="Submitty\Submitty\Controllers\Student\TeamController::stopSeekTeam">stopSeekTeam</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Student/TeamController.php.html#308"><abbr title="Submitty\Submitty\Controllers\Student\TeamController::seekTeam">seekTeam</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Student/TeamController.php.html#258"><abbr title="Submitty\Submitty\Controllers\Student\TeamController::cancelInvitation">cancelInvitation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Student/TeamController.php.html#201"><abbr title="Submitty\Submitty\Controllers\Student\TeamController::acceptInvitation">acceptInvitation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Student/TeamController.php.html#130"><abbr title="Submitty\Submitty\Controllers\Student\TeamController::sendInvitation">sendInvitation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Student/TeamController.php.html#86"><abbr title="Submitty\Submitty\Controllers\Student\TeamController::leaveTeam">leaveTeam</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Student/TeamController.php.html#40"><abbr title="Submitty\Submitty\Controllers\Student\TeamController::createNewTeam">createNewTeam</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Student/TeamController.php.html#10"><abbr title="Submitty\Submitty\Controllers\Student\TeamController::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Student/SubmissionController.php.html#627"><abbr title="Submitty\Submitty\Controllers\Student\SubmissionController::ajaxDeleteSplitItem">ajaxDeleteSplitItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Student/SubmissionController.php.html#405"><abbr title="Submitty\Submitty\Controllers\Student\SubmissionController::ajaxUploadSplitItem">ajaxUploadSplitItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Student/SubmissionController.php.html#138"><abbr title="Submitty\Submitty\Controllers\Student\SubmissionController::ajaxValidGradeable">ajaxValidGradeable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MiscController.php.html#10"><abbr title="Submitty\Submitty\Controllers\MiscController::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Student/SubmissionController.php.html#68"><abbr title="Submitty\Submitty\Controllers\Student\SubmissionController::popUp">popUp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Student/RainbowGradesController.php.html#10"><abbr title="Submitty\Submitty\Controllers\Student\RainbowGradesController::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NavigationController.php.html#69"><abbr title="Submitty\Submitty\Controllers\NavigationController::filterNoConfig">filterNoConfig</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NavigationController.php.html#36"><abbr title="Submitty\Submitty\Controllers\NavigationController::navigationPage">navigationPage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NavigationController.php.html#32"><abbr title="Submitty\Submitty\Controllers\NavigationController::noAccess">noAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NavigationController.php.html#21"><abbr title="Submitty\Submitty\Controllers\NavigationController::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NavigationController.php.html#17"><abbr title="Submitty\Submitty\Controllers\NavigationController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MiscController.php.html#290"><abbr title="Submitty\Submitty\Controllers\MiscController::downloadAssignedZips">downloadAssignedZips</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MiscController.php.html#225"><abbr title="Submitty\Submitty\Controllers\MiscController::downloadZip">downloadZip</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MiscController.php.html#205"><abbr title="Submitty\Submitty\Controllers\MiscController::downloadFile">downloadFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MiscController.php.html#175"><abbr title="Submitty\Submitty\Controllers\MiscController::displayFile">displayFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MiscController.php.html#34"><abbr title="Submitty\Submitty\Controllers\MiscController::checkValidAccess">checkValidAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Forum/ForumController.php.html#169"><abbr title="Submitty\Submitty\Controllers\Forum\ForumController::alterPost">alterPost</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Forum/ForumController.php.html#198"><abbr title="Submitty\Submitty\Controllers\Forum\ForumController::showThreads">showThreads</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Forum/ForumController.php.html#127"><abbr title="Submitty\Submitty\Controllers\Forum\ForumController::publishPost">publishPost</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/GradeableController.php.html#26"><abbr title="Submitty\Submitty\Controllers\Admin\GradeableController::process_config_upload">process_config_upload</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/PlagiarismController.php.html#33"><abbr title="Submitty\Submitty\Controllers\Admin\PlagiarismController::plagiarismIndex">plagiarismIndex</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/PlagiarismController.php.html#24"><abbr title="Submitty\Submitty\Controllers\Admin\PlagiarismController::plagiarismCompare">plagiarismCompare</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/PlagiarismController.php.html#9"><abbr title="Submitty\Submitty\Controllers\Admin\PlagiarismController::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/LateController.php.html#191"><abbr title="Submitty\Submitty\Controllers\Admin\LateController::validateHomework">validateHomework</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/LateController.php.html#132"><abbr title="Submitty\Submitty\Controllers\Admin\LateController::parseAndValidateCsv">parseAndValidateCsv</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/LateController.php.html#120"><abbr title="Submitty\Submitty\Controllers\Admin\LateController::getExtensions">getExtensions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/LateController.php.html#109"><abbr title="Submitty\Submitty\Controllers\Admin\LateController::getLateDays">getLateDays</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/LateController.php.html#44"><abbr title="Submitty\Submitty\Controllers\Admin\LateController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/LateController.php.html#39"><abbr title="Submitty\Submitty\Controllers\Admin\LateController::viewExtensions">viewExtensions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/LateController.php.html#34"><abbr title="Submitty\Submitty\Controllers\Admin\LateController::viewLateDays">viewLateDays</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/LateController.php.html#9"><abbr title="Submitty\Submitty\Controllers\Admin\LateController::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/GradeableController.php.html#20"><abbr title="Submitty\Submitty\Controllers\Admin\GradeableController::upload_config">upload_config</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/ReportController.php.html#19"><abbr title="Submitty\Submitty\Controllers\Admin\ReportController::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/GradeableController.php.html#9"><abbr title="Submitty\Submitty\Controllers\Admin\GradeableController::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/ConfigurationController.php.html#69"><abbr title="Submitty\Submitty\Controllers\Admin\ConfigurationController::updateConfiguration">updateConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/ConfigurationController.php.html#25"><abbr title="Submitty\Submitty\Controllers\Admin\ConfigurationController::viewConfiguration">viewConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/ConfigurationController.php.html#11"><abbr title="Submitty\Submitty\Controllers\Admin\ConfigurationController::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/AdminGradeableController.php.html#592"><abbr title="Submitty\Submitty\Controllers\Admin\AdminGradeableController::returnToNav">returnToNav</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/AdminGradeableController.php.html#575"><abbr title="Submitty\Submitty\Controllers\Admin\AdminGradeableController::quickLink">quickLink</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/AdminGradeableController.php.html#88"><abbr title="Submitty\Submitty\Controllers\Admin\AdminGradeableController::modifyGradeable">modifyGradeable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/AdminGradeableController.php.html#82"><abbr title="Submitty\Submitty\Controllers\Admin\AdminGradeableController::isRadioButtonTrue">isRadioButtonTrue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/AdminGradeableController.php.html#66"><abbr title="Submitty\Submitty\Controllers\Admin\AdminGradeableController::getAdminGradeable">getAdminGradeable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/AdminGradeableController.php.html#60"><abbr title="Submitty\Submitty\Controllers\Admin\AdminGradeableController::editPage">editPage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/AdminGradeableController.php.html#54"><abbr title="Submitty\Submitty\Controllers\Admin\AdminGradeableController::viewPage">viewPage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Forum/ForumController.php.html#90"><abbr title="Submitty\Submitty\Controllers\Forum\ForumController::publishThread">publishThread</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/PlagiarismController.php.html#40"><abbr title="Submitty\Submitty\Controllers\Admin\PlagiarismController::plagiarismTree">plagiarismTree</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/ReportController.php.html#39"><abbr title="Submitty\Submitty\Controllers\Admin\ReportController::showReportPage">showReportPage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/ReportController.php.html#43"><abbr title="Submitty\Submitty\Controllers\Admin\ReportController::generateCSVReport">generateCSVReport</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Forum/ForumController.php.html#75"><abbr title="Submitty\Submitty\Controllers\Forum\ForumController::checkGoodAttachment">checkGoodAttachment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Forum/ForumController.php.html#62"><abbr title="Submitty\Submitty\Controllers\Forum\ForumController::returnUserContentToPage">returnUserContentToPage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Forum/ForumController.php.html#28"><abbr title="Submitty\Submitty\Controllers\Forum\ForumController::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Forum/ForumController.php.html#24"><abbr title="Submitty\Submitty\Controllers\Forum\ForumController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationController.php.html#90"><abbr title="Submitty\Submitty\Controllers\AuthenticationController::checkLogin">checkLogin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationController.php.html#80"><abbr title="Submitty\Submitty\Controllers\AuthenticationController::loginForm">loginForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationController.php.html#68"><abbr title="Submitty\Submitty\Controllers\AuthenticationController::logout">logout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationController.php.html#51"><abbr title="Submitty\Submitty\Controllers\AuthenticationController::isLoggedIn">isLoggedIn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationController.php.html#34"><abbr title="Submitty\Submitty\Controllers\AuthenticationController::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationController.php.html#29"><abbr title="Submitty\Submitty\Controllers\AuthenticationController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AdminController.php.html#18"><abbr title="Submitty\Submitty\Controllers\AdminController::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/UsersController.php.html#509"><abbr title="Submitty\Submitty\Controllers\Admin\UsersController::uploadClassList">uploadClassList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/UsersController.php.html#396"><abbr title="Submitty\Submitty\Controllers\Admin\UsersController::uploadGraderList">uploadGraderList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StudentController.php.html#10"><abbr title="Submitty\Submitty\Controllers\StudentController::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/UsersController.php.html#72"><abbr title="Submitty\Submitty\Controllers\Admin\UsersController::ajaxGetUserDetails">ajaxGetUserDetails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/ReportController.php.html#117"><abbr title="Submitty\Submitty\Controllers\Admin\ReportController::generateGradeSummaries">generateGradeSummaries</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/ReportController.php.html#124"><abbr title="Submitty\Submitty\Controllers\Admin\ReportController::generateHWReports">generateHWReports</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/UsersController.php.html#14"><abbr title="Submitty\Submitty\Controllers\Admin\UsersController::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/UsersController.php.html#50"><abbr title="Submitty\Submitty\Controllers\Admin\UsersController::listStudents">listStudents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/UsersController.php.html#58"><abbr title="Submitty\Submitty\Controllers\Admin\UsersController::listGraders">listGraders</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/UsersController.php.html#66"><abbr title="Submitty\Submitty\Controllers\Admin\UsersController::renderUserForm">renderUserForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/UsersController.php.html#91"><abbr title="Submitty\Submitty\Controllers\Admin\UsersController::updateUser">updateUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/UsersController.php.html#370"><abbr title="Submitty\Submitty\Controllers\Admin\UsersController::anonymousFunction:370#3692">anonymousFunction:370#3692</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/UsersController.php.html#211"><abbr title="Submitty\Submitty\Controllers\Admin\UsersController::rotatingSectionsForm">rotatingSectionsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/UsersController.php.html#219"><abbr title="Submitty\Submitty\Controllers\Admin\UsersController::updateRotatingSections">updateRotatingSections</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/UsersController.php.html#319"><abbr title="Submitty\Submitty\Controllers\Admin\UsersController::getCsvOrXlsxData">getCsvOrXlsxData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Student/SubmissionController.php.html#35"><abbr title="Submitty\Submitty\Controllers\Student\SubmissionController::run">run</abbr></a></td><td class="text-right">73%</td></tr>
+       <tr><td><a href="Student/SubmissionController.php.html#1152"><abbr title="Submitty\Submitty\Controllers\Student\SubmissionController::updateSubmissionVersion">updateSubmissionVersion</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Student/SubmissionController.php.html#681"><abbr title="Submitty\Submitty\Controllers\Student\SubmissionController::ajaxUploadSubmission">ajaxUploadSubmission</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Student/SubmissionController.php.html#1280"><abbr title="Submitty\Submitty\Controllers\Student\SubmissionController::checkRefresh">checkRefresh</abbr></a></td><td class="text-right">84%</td></tr>
+       <tr><td><a href="Student/SubmissionController.php.html#75"><abbr title="Submitty\Submitty\Controllers\Student\SubmissionController::showHomeworkPage">showHomeworkPage</abbr></a></td><td class="text-right">85%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Admin/AdminGradeableController.php.html#88"><abbr title="Submitty\Submitty\Controllers\Admin\AdminGradeableController::modifyGradeable">modifyGradeable</abbr></a></td><td class="text-right">15006</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderController.php.html#205"><abbr title="Submitty\Submitty\Controllers\Grading\ElectronicGraderController::showDetails">showDetails</abbr></a></td><td class="text-right">2256</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderController.php.html#672"><abbr title="Submitty\Submitty\Controllers\Grading\ElectronicGraderController::saveSingleComponent">saveSingleComponent</abbr></a></td><td class="text-right">1806</td></tr>
+       <tr><td><a href="Admin/UsersController.php.html#509"><abbr title="Submitty\Submitty\Controllers\Admin\UsersController::uploadClassList">uploadClassList</abbr></a></td><td class="text-right">1260</td></tr>
+       <tr><td><a href="Admin/UsersController.php.html#91"><abbr title="Submitty\Submitty\Controllers\Admin\UsersController::updateUser">updateUser</abbr></a></td><td class="text-right">1190</td></tr>
+       <tr><td><a href="MiscController.php.html#34"><abbr title="Submitty\Submitty\Controllers\MiscController::checkValidAccess">checkValidAccess</abbr></a></td><td class="text-right">992</td></tr>
+       <tr><td><a href="Student/SubmissionController.php.html#248"><abbr title="Submitty\Submitty\Controllers\Student\SubmissionController::ajaxBulkUpload">ajaxBulkUpload</abbr></a></td><td class="text-right">930</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderController.php.html#528"><abbr title="Submitty\Submitty\Controllers\Grading\ElectronicGraderController::showGrading">showGrading</abbr></a></td><td class="text-right">870</td></tr>
+       <tr><td><a href="Student/SubmissionController.php.html#405"><abbr title="Submitty\Submitty\Controllers\Student\SubmissionController::ajaxUploadSplitItem">ajaxUploadSplitItem</abbr></a></td><td class="text-right">812</td></tr>
+       <tr><td><a href="Admin/UsersController.php.html#396"><abbr title="Submitty\Submitty\Controllers\Admin\UsersController::uploadGraderList">uploadGraderList</abbr></a></td><td class="text-right">812</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderController.php.html#353"><abbr title="Submitty\Submitty\Controllers\Grading\ElectronicGraderController::adminTeamSubmit">adminTeamSubmit</abbr></a></td><td class="text-right">702</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderController.php.html#53"><abbr title="Submitty\Submitty\Controllers\Grading\ElectronicGraderController::showStatus">showStatus</abbr></a></td><td class="text-right">650</td></tr>
+       <tr><td><a href="Admin/LateController.php.html#44"><abbr title="Submitty\Submitty\Controllers\Admin\LateController::update">update</abbr></a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="Grading/SimpleGraderController.php.html#105"><abbr title="Submitty\Submitty\Controllers\Grading\SimpleGraderController::grade">grade</abbr></a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderController.php.html#457"><abbr title="Submitty\Submitty\Controllers\Grading\ElectronicGraderController::createTeamWithLeaderAndUsers">createTeamWithLeaderAndUsers</abbr></a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="Admin/ReportController.php.html#43"><abbr title="Submitty\Submitty\Controllers\Admin\ReportController::generateCSVReport">generateCSVReport</abbr></a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="Admin/UsersController.php.html#219"><abbr title="Submitty\Submitty\Controllers\Admin\UsersController::updateRotatingSections">updateRotatingSections</abbr></a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="Student/SubmissionController.php.html#138"><abbr title="Submitty\Submitty\Controllers\Student\SubmissionController::ajaxValidGradeable">ajaxValidGradeable</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="Grading/SimpleGraderController.php.html#166"><abbr title="Submitty\Submitty\Controllers\Grading\SimpleGraderController::save">save</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderController.php.html#978"><abbr title="Submitty\Submitty\Controllers\Grading\ElectronicGraderController::getStats">getStats</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="MiscController.php.html#290"><abbr title="Submitty\Submitty\Controllers\MiscController::downloadAssignedZips">downloadAssignedZips</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="Admin/UsersController.php.html#319"><abbr title="Submitty\Submitty\Controllers\Admin\UsersController::getCsvOrXlsxData">getCsvOrXlsxData</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="Student/SubmissionController.php.html#681"><abbr title="Submitty\Submitty\Controllers\Student\SubmissionController::ajaxUploadSubmission">ajaxUploadSubmission</abbr></a></td><td class="text-right">236</td></tr>
+       <tr><td><a href="Student/TeamController.php.html#130"><abbr title="Submitty\Submitty\Controllers\Student\TeamController::sendInvitation">sendInvitation</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="Forum/ForumController.php.html#90"><abbr title="Submitty\Submitty\Controllers\Forum\ForumController::publishThread">publishThread</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Admin/GradeableController.php.html#26"><abbr title="Submitty\Submitty\Controllers\Admin\GradeableController::process_config_upload">process_config_upload</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Admin/LateController.php.html#132"><abbr title="Submitty\Submitty\Controllers\Admin\LateController::parseAndValidateCsv">parseAndValidateCsv</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Student/TeamController.php.html#201"><abbr title="Submitty\Submitty\Controllers\Student\TeamController::acceptInvitation">acceptInvitation</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Grading/SimpleGraderController.php.html#229"><abbr title="Submitty\Submitty\Controllers\Grading\SimpleGraderController::UploadCSV">UploadCSV</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Student/TeamController.php.html#258"><abbr title="Submitty\Submitty\Controllers\Student\TeamController::cancelInvitation">cancelInvitation</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderController.php.html#15"><abbr title="Submitty\Submitty\Controllers\Grading\ElectronicGraderController::run">run</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Grading/SimpleGraderController.php.html#37"><abbr title="Submitty\Submitty\Controllers\Grading\SimpleGraderController::printLab">printLab</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Forum/ForumController.php.html#127"><abbr title="Submitty\Submitty\Controllers\Forum\ForumController::publishPost">publishPost</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Admin/UsersController.php.html#14"><abbr title="Submitty\Submitty\Controllers\Admin\UsersController::run">run</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Student/SubmissionController.php.html#627"><abbr title="Submitty\Submitty\Controllers\Student\SubmissionController::ajaxDeleteSplitItem">ajaxDeleteSplitItem</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Forum/ForumController.php.html#28"><abbr title="Submitty\Submitty\Controllers\Forum\ForumController::run">run</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="AuthenticationController.php.html#90"><abbr title="Submitty\Submitty\Controllers\AuthenticationController::checkLogin">checkLogin</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Admin/ConfigurationController.php.html#69"><abbr title="Submitty\Submitty\Controllers\Admin\ConfigurationController::updateConfiguration">updateConfiguration</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Admin/ConfigurationController.php.html#25"><abbr title="Submitty\Submitty\Controllers\Admin\ConfigurationController::viewConfiguration">viewConfiguration</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="AdminController.php.html#18"><abbr title="Submitty\Submitty\Controllers\AdminController::run">run</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Student/TeamController.php.html#10"><abbr title="Submitty\Submitty\Controllers\Student\TeamController::run">run</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderController.php.html#895"><abbr title="Submitty\Submitty\Controllers\Grading\ElectronicGraderController::getMarkDetails">getMarkDetails</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Student/TeamController.php.html#86"><abbr title="Submitty\Submitty\Controllers\Student\TeamController::leaveTeam">leaveTeam</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Grading/SimpleGraderController.php.html#9"><abbr title="Submitty\Submitty\Controllers\Grading\SimpleGraderController::run">run</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Student/TeamController.php.html#40"><abbr title="Submitty\Submitty\Controllers\Student\TeamController::createNewTeam">createNewTeam</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="MiscController.php.html#10"><abbr title="Submitty\Submitty\Controllers\MiscController::run">run</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Admin/AdminGradeableController.php.html#16"><abbr title="Submitty\Submitty\Controllers\Admin\AdminGradeableController::run">run</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderController.php.html#856"><abbr title="Submitty\Submitty\Controllers\Grading\ElectronicGraderController::addOneMark">addOneMark</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Forum/ForumController.php.html#169"><abbr title="Submitty\Submitty\Controllers\Forum\ForumController::alterPost">alterPost</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Admin/LateController.php.html#9"><abbr title="Submitty\Submitty\Controllers\Admin\LateController::run">run</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="MiscController.php.html#225"><abbr title="Submitty\Submitty\Controllers\MiscController::downloadZip">downloadZip</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="MiscController.php.html#175"><abbr title="Submitty\Submitty\Controllers\MiscController::displayFile">displayFile</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Grading/ElectronicGraderController.php.html#950"><abbr title="Submitty\Submitty\Controllers\Grading\ElectronicGraderController::getUsersThatGotTheMark">getUsersThatGotTheMark</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Forum/ForumController.php.html#75"><abbr title="Submitty\Submitty\Controllers\Forum\ForumController::checkGoodAttachment">checkGoodAttachment</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Admin/AdminGradeableController.php.html#575"><abbr title="Submitty\Submitty\Controllers\Admin\AdminGradeableController::quickLink">quickLink</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Admin/ReportController.php.html#19"><abbr title="Submitty\Submitty\Controllers\Admin\ReportController::run">run</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Student/SubmissionController.php.html#1152"><abbr title="Submitty\Submitty\Controllers\Student\SubmissionController::updateSubmissionVersion">updateSubmissionVersion</abbr></a></td><td class="text-right">26</td></tr>
+       <tr><td><a href="Student/TeamController.php.html#346"><abbr title="Submitty\Submitty\Controllers\Student\TeamController::showPage">showPage</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Student/TeamController.php.html#327"><abbr title="Submitty\Submitty\Controllers\Student\TeamController::stopSeekTeam">stopSeekTeam</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Student/TeamController.php.html#308"><abbr title="Submitty\Submitty\Controllers\Student\TeamController::seekTeam">seekTeam</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="StudentController.php.html#10"><abbr title="Submitty\Submitty\Controllers\StudentController::run">run</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="AuthenticationController.php.html#34"><abbr title="Submitty\Submitty\Controllers\AuthenticationController::run">run</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="HomePageController.php.html#55"><abbr title="Submitty\Submitty\Controllers\HomePageController::changeUserName">changeUserName</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="HomePageController.php.html#25"><abbr title="Submitty\Submitty\Controllers\HomePageController::run">run</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="AuthenticationController.php.html#51"><abbr title="Submitty\Submitty\Controllers\AuthenticationController::isLoggedIn">isLoggedIn</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="HomePageController.php.html#42"><abbr title="Submitty\Submitty\Controllers\HomePageController::changePassword">changePassword</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Student/SubmissionController.php.html#75"><abbr title="Submitty\Submitty\Controllers\Student\SubmissionController::showHomeworkPage">showHomeworkPage</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Forum/ForumController.php.html#228"><abbr title="Submitty\Submitty\Controllers\Forum\ForumController::getEditPostContent">getEditPostContent</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Admin/ConfigurationController.php.html#11"><abbr title="Submitty\Submitty\Controllers\Admin\ConfigurationController::run">run</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Admin/GradeableController.php.html#9"><abbr title="Submitty\Submitty\Controllers\Admin\GradeableController::run">run</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="GradingController.php.html#12"><abbr title="Submitty\Submitty\Controllers\GradingController::run">run</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Admin/LateController.php.html#191"><abbr title="Submitty\Submitty\Controllers\Admin\LateController::validateHomework">validateHomework</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Admin/PlagiarismController.php.html#9"><abbr title="Submitty\Submitty\Controllers\Admin\PlagiarismController::run">run</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="NavigationController.php.html#36"><abbr title="Submitty\Submitty\Controllers\NavigationController::navigationPage">navigationPage</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Admin/UsersController.php.html#370"><abbr title="Submitty\Submitty\Controllers\Admin\UsersController::anonymousFunction:370#3692">anonymousFunction:370#3692</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Student/SubmissionController.php.html#35"><abbr title="Submitty\Submitty\Controllers\Student\SubmissionController::run">run</abbr></a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="Student/SubmissionController.php.html#1280"><abbr title="Submitty\Submitty\Controllers\Student\SubmissionController::checkRefresh">checkRefresh</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MiscController.php.html#205"><abbr title="Submitty\Submitty\Controllers\MiscController::downloadFile">downloadFile</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Forum/ForumController.php.html#198"><abbr title="Submitty\Submitty\Controllers\Forum\ForumController::showThreads">showThreads</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Forum/ForumController.php.html#160"><abbr title="Submitty\Submitty\Controllers\Forum\ForumController::alterAnnouncement">alterAnnouncement</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Admin/AdminGradeableController.php.html#82"><abbr title="Submitty\Submitty\Controllers\Admin\AdminGradeableController::isRadioButtonTrue">isRadioButtonTrue</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Forum/ForumController.php.html#62"><abbr title="Submitty\Submitty\Controllers\Forum\ForumController::returnUserContentToPage">returnUserContentToPage</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Student/SubmissionController.php.html#68"><abbr title="Submitty\Submitty\Controllers\Student\SubmissionController::popUp">popUp</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="NavigationController.php.html#21"><abbr title="Submitty\Submitty\Controllers\NavigationController::run">run</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Admin/PlagiarismController.php.html#40"><abbr title="Submitty\Submitty\Controllers\Admin\PlagiarismController::plagiarismTree">plagiarismTree</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Admin/LateController.php.html#109"><abbr title="Submitty\Submitty\Controllers\Admin\LateController::getLateDays">getLateDays</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Admin/AdminGradeableController.php.html#43"><abbr title="Submitty\Submitty\Controllers\Admin\AdminGradeableController::uploadNewTemplate">uploadNewTemplate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Admin/LateController.php.html#120"><abbr title="Submitty\Submitty\Controllers\Admin\LateController::getExtensions">getExtensions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Student/RainbowGradesController.php.html#10"><abbr title="Submitty\Submitty\Controllers\Student\RainbowGradesController::run">run</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="NavigationController.php.html#69"><abbr title="Submitty\Submitty\Controllers\NavigationController::filterNoConfig">filterNoConfig</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 5.3.0</a> using <a href="https://secure.php.net/" target="_top">PHP 7.2.2</a> with <a href="https://xdebug.org/">Xdebug 2.6.0</a> and <a href="https://phpunit.de/">PHPUnit 6.5.7</a> at Wed Apr 4 15:48:40 EDT 2018.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../.js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../.js/holder.min.js" type="text/javascript"></script>
+  <script src="../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([19,0,0,0,0,1,0,0,0,0,0,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([113,0,0,0,0,0,0,0,3,2,0,10], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,2,"<a href=\"AbstractController.php.html#7\">Submitty\\Submitty\\Controllers\\AbstractController<\/a>"],[0,142,"<a href=\"Admin\/AdminGradeableController.php.html#15\">Submitty\\Submitty\\Controllers\\Admin\\AdminGradeableController<\/a>"],[0,21,"<a href=\"Admin\/ConfigurationController.php.html#10\">Submitty\\Submitty\\Controllers\\Admin\\ConfigurationController<\/a>"],[0,15,"<a href=\"Admin\/GradeableController.php.html#8\">Submitty\\Submitty\\Controllers\\Admin\\GradeableController<\/a>"],[0,49,"<a href=\"Admin\/LateController.php.html#8\">Submitty\\Submitty\\Controllers\\Admin\\LateController<\/a>"],[0,7,"<a href=\"Admin\/PlagiarismController.php.html#8\">Submitty\\Submitty\\Controllers\\Admin\\PlagiarismController<\/a>"],[0,29,"<a href=\"Admin\/ReportController.php.html#18\">Submitty\\Submitty\\Controllers\\Admin\\ReportController<\/a>"],[0,150,"<a href=\"Admin\/UsersController.php.html#13\">Submitty\\Submitty\\Controllers\\Admin\\UsersController<\/a>"],[0,9,"<a href=\"AdminController.php.html#17\">Submitty\\Submitty\\Controllers\\AdminController<\/a>"],[0,21,"<a href=\"AuthenticationController.php.html#16\">Submitty\\Submitty\\Controllers\\AuthenticationController<\/a>"],[0,53,"<a href=\"Forum\/ForumController.php.html#17\">Submitty\\Submitty\\Controllers\\Forum\\ForumController<\/a>"],[0,241,"<a href=\"Grading\/ElectronicGraderController.php.html#14\">Submitty\\Submitty\\Controllers\\Grading\\ElectronicGraderController<\/a>"],[0,66,"<a href=\"Grading\/SimpleGraderController.php.html#8\">Submitty\\Submitty\\Controllers\\Grading\\SimpleGraderController<\/a>"],[0,3,"<a href=\"GradingController.php.html#10\">Submitty\\Submitty\\Controllers\\GradingController<\/a>"],[0,14,"<a href=\"HomePageController.php.html#15\">Submitty\\Submitty\\Controllers\\HomePageController<\/a>"],[0,66,"<a href=\"MiscController.php.html#9\">Submitty\\Submitty\\Controllers\\MiscController<\/a>"],[0,9,"<a href=\"NavigationController.php.html#16\">Submitty\\Submitty\\Controllers\\NavigationController<\/a>"],[0,2,"<a href=\"Student\/RainbowGradesController.php.html#9\">Submitty\\Submitty\\Controllers\\Student\\RainbowGradesController<\/a>"],[45.39202200825309,241,"<a href=\"Student\/SubmissionController.php.html#19\">Submitty\\Submitty\\Controllers\\Student\\SubmissionController<\/a>"],[0,72,"<a href=\"Student\/TeamController.php.html#9\">Submitty\\Submitty\\Controllers\\Student\\TeamController<\/a>"],[0,4,"<a href=\"StudentController.php.html#9\">Submitty\\Submitty\\Controllers\\StudentController<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"AbstractController.php.html#12\">Submitty\\Submitty\\Controllers\\AbstractController::__construct<\/a>"],[100,1,"<a href=\"AbstractController.php.html#16\">Submitty\\Submitty\\Controllers\\AbstractController::run<\/a>"],[0,7,"<a href=\"Admin\/AdminGradeableController.php.html#16\">Submitty\\Submitty\\Controllers\\Admin\\AdminGradeableController::run<\/a>"],[0,2,"<a href=\"Admin\/AdminGradeableController.php.html#43\">Submitty\\Submitty\\Controllers\\Admin\\AdminGradeableController::uploadNewTemplate<\/a>"],[0,1,"<a href=\"Admin\/AdminGradeableController.php.html#54\">Submitty\\Submitty\\Controllers\\Admin\\AdminGradeableController::viewPage<\/a>"],[0,1,"<a href=\"Admin\/AdminGradeableController.php.html#60\">Submitty\\Submitty\\Controllers\\Admin\\AdminGradeableController::editPage<\/a>"],[0,1,"<a href=\"Admin\/AdminGradeableController.php.html#66\">Submitty\\Submitty\\Controllers\\Admin\\AdminGradeableController::getAdminGradeable<\/a>"],[0,2,"<a href=\"Admin\/AdminGradeableController.php.html#82\">Submitty\\Submitty\\Controllers\\Admin\\AdminGradeableController::isRadioButtonTrue<\/a>"],[0,122,"<a href=\"Admin\/AdminGradeableController.php.html#88\">Submitty\\Submitty\\Controllers\\Admin\\AdminGradeableController::modifyGradeable<\/a>"],[0,5,"<a href=\"Admin\/AdminGradeableController.php.html#575\">Submitty\\Submitty\\Controllers\\Admin\\AdminGradeableController::quickLink<\/a>"],[0,1,"<a href=\"Admin\/AdminGradeableController.php.html#592\">Submitty\\Submitty\\Controllers\\Admin\\AdminGradeableController::returnToNav<\/a>"],[0,3,"<a href=\"Admin\/ConfigurationController.php.html#11\">Submitty\\Submitty\\Controllers\\Admin\\ConfigurationController::run<\/a>"],[0,9,"<a href=\"Admin\/ConfigurationController.php.html#25\">Submitty\\Submitty\\Controllers\\Admin\\ConfigurationController::viewConfiguration<\/a>"],[0,9,"<a href=\"Admin\/ConfigurationController.php.html#69\">Submitty\\Submitty\\Controllers\\Admin\\ConfigurationController::updateConfiguration<\/a>"],[0,3,"<a href=\"Admin\/GradeableController.php.html#9\">Submitty\\Submitty\\Controllers\\Admin\\GradeableController::run<\/a>"],[0,1,"<a href=\"Admin\/GradeableController.php.html#20\">Submitty\\Submitty\\Controllers\\Admin\\GradeableController::upload_config<\/a>"],[0,11,"<a href=\"Admin\/GradeableController.php.html#26\">Submitty\\Submitty\\Controllers\\Admin\\GradeableController::process_config_upload<\/a>"],[0,6,"<a href=\"Admin\/LateController.php.html#9\">Submitty\\Submitty\\Controllers\\Admin\\LateController::run<\/a>"],[0,1,"<a href=\"Admin\/LateController.php.html#34\">Submitty\\Submitty\\Controllers\\Admin\\LateController::viewLateDays<\/a>"],[0,1,"<a href=\"Admin\/LateController.php.html#39\">Submitty\\Submitty\\Controllers\\Admin\\LateController::viewExtensions<\/a>"],[0,22,"<a href=\"Admin\/LateController.php.html#44\">Submitty\\Submitty\\Controllers\\Admin\\LateController::update<\/a>"],[0,2,"<a href=\"Admin\/LateController.php.html#109\">Submitty\\Submitty\\Controllers\\Admin\\LateController::getLateDays<\/a>"],[0,2,"<a href=\"Admin\/LateController.php.html#120\">Submitty\\Submitty\\Controllers\\Admin\\LateController::getExtensions<\/a>"],[0,11,"<a href=\"Admin\/LateController.php.html#132\">Submitty\\Submitty\\Controllers\\Admin\\LateController::parseAndValidateCsv<\/a>"],[100,1,"<a href=\"Admin\/LateController.php.html#157\">Submitty\\Submitty\\Controllers\\Admin\\LateController::anonymousFunction:157#1521<\/a>"],[0,3,"<a href=\"Admin\/LateController.php.html#191\">Submitty\\Submitty\\Controllers\\Admin\\LateController::validateHomework<\/a>"],[0,3,"<a href=\"Admin\/PlagiarismController.php.html#9\">Submitty\\Submitty\\Controllers\\Admin\\PlagiarismController::run<\/a>"],[0,1,"<a href=\"Admin\/PlagiarismController.php.html#24\">Submitty\\Submitty\\Controllers\\Admin\\PlagiarismController::plagiarismCompare<\/a>"],[0,1,"<a href=\"Admin\/PlagiarismController.php.html#33\">Submitty\\Submitty\\Controllers\\Admin\\PlagiarismController::plagiarismIndex<\/a>"],[0,2,"<a href=\"Admin\/PlagiarismController.php.html#40\">Submitty\\Submitty\\Controllers\\Admin\\PlagiarismController::plagiarismTree<\/a>"],[0,5,"<a href=\"Admin\/ReportController.php.html#19\">Submitty\\Submitty\\Controllers\\Admin\\ReportController::run<\/a>"],[0,1,"<a href=\"Admin\/ReportController.php.html#39\">Submitty\\Submitty\\Controllers\\Admin\\ReportController::showReportPage<\/a>"],[0,20,"<a href=\"Admin\/ReportController.php.html#43\">Submitty\\Submitty\\Controllers\\Admin\\ReportController::generateCSVReport<\/a>"],[100,1,"<a href=\"Admin\/ReportController.php.html#45\">Submitty\\Submitty\\Controllers\\Admin\\ReportController::anonymousFunction:45#279<\/a>"],[0,1,"<a href=\"Admin\/ReportController.php.html#117\">Submitty\\Submitty\\Controllers\\Admin\\ReportController::generateGradeSummaries<\/a>"],[0,1,"<a href=\"Admin\/ReportController.php.html#124\">Submitty\\Submitty\\Controllers\\Admin\\ReportController::generateHWReports<\/a>"],[0,10,"<a href=\"Admin\/UsersController.php.html#14\">Submitty\\Submitty\\Controllers\\Admin\\UsersController::run<\/a>"],[0,1,"<a href=\"Admin\/UsersController.php.html#50\">Submitty\\Submitty\\Controllers\\Admin\\UsersController::listStudents<\/a>"],[0,1,"<a href=\"Admin\/UsersController.php.html#58\">Submitty\\Submitty\\Controllers\\Admin\\UsersController::listGraders<\/a>"],[0,1,"<a href=\"Admin\/UsersController.php.html#66\">Submitty\\Submitty\\Controllers\\Admin\\UsersController::renderUserForm<\/a>"],[0,1,"<a href=\"Admin\/UsersController.php.html#72\">Submitty\\Submitty\\Controllers\\Admin\\UsersController::ajaxGetUserDetails<\/a>"],[0,34,"<a href=\"Admin\/UsersController.php.html#91\">Submitty\\Submitty\\Controllers\\Admin\\UsersController::updateUser<\/a>"],[0,1,"<a href=\"Admin\/UsersController.php.html#211\">Submitty\\Submitty\\Controllers\\Admin\\UsersController::rotatingSectionsForm<\/a>"],[0,20,"<a href=\"Admin\/UsersController.php.html#219\">Submitty\\Submitty\\Controllers\\Admin\\UsersController::updateRotatingSections<\/a>"],[0,15,"<a href=\"Admin\/UsersController.php.html#319\">Submitty\\Submitty\\Controllers\\Admin\\UsersController::getCsvOrXlsxData<\/a>"],[0,3,"<a href=\"Admin\/UsersController.php.html#370\">Submitty\\Submitty\\Controllers\\Admin\\UsersController::anonymousFunction:370#3692<\/a>"],[0,28,"<a href=\"Admin\/UsersController.php.html#396\">Submitty\\Submitty\\Controllers\\Admin\\UsersController::uploadGraderList<\/a>"],[0,35,"<a href=\"Admin\/UsersController.php.html#509\">Submitty\\Submitty\\Controllers\\Admin\\UsersController::uploadClassList<\/a>"],[0,9,"<a href=\"AdminController.php.html#18\">Submitty\\Submitty\\Controllers\\AdminController::run<\/a>"],[0,1,"<a href=\"AuthenticationController.php.html#29\">Submitty\\Submitty\\Controllers\\AuthenticationController::__construct<\/a>"],[0,4,"<a href=\"AuthenticationController.php.html#34\">Submitty\\Submitty\\Controllers\\AuthenticationController::run<\/a>"],[0,4,"<a href=\"AuthenticationController.php.html#51\">Submitty\\Submitty\\Controllers\\AuthenticationController::isLoggedIn<\/a>"],[0,1,"<a href=\"AuthenticationController.php.html#68\">Submitty\\Submitty\\Controllers\\AuthenticationController::logout<\/a>"],[0,1,"<a href=\"AuthenticationController.php.html#80\">Submitty\\Submitty\\Controllers\\AuthenticationController::loginForm<\/a>"],[0,10,"<a href=\"AuthenticationController.php.html#90\">Submitty\\Submitty\\Controllers\\AuthenticationController::checkLogin<\/a>"],[0,1,"<a href=\"Forum\/ForumController.php.html#24\">Submitty\\Submitty\\Controllers\\Forum\\ForumController::__construct<\/a>"],[0,10,"<a href=\"Forum\/ForumController.php.html#28\">Submitty\\Submitty\\Controllers\\Forum\\ForumController::run<\/a>"],[0,2,"<a href=\"Forum\/ForumController.php.html#62\">Submitty\\Submitty\\Controllers\\Forum\\ForumController::returnUserContentToPage<\/a>"],[0,5,"<a href=\"Forum\/ForumController.php.html#75\">Submitty\\Submitty\\Controllers\\Forum\\ForumController::checkGoodAttachment<\/a>"],[0,11,"<a href=\"Forum\/ForumController.php.html#90\">Submitty\\Submitty\\Controllers\\Forum\\ForumController::publishThread<\/a>"],[0,10,"<a href=\"Forum\/ForumController.php.html#127\">Submitty\\Submitty\\Controllers\\Forum\\ForumController::publishPost<\/a>"],[0,2,"<a href=\"Forum\/ForumController.php.html#160\">Submitty\\Submitty\\Controllers\\Forum\\ForumController::alterAnnouncement<\/a>"],[0,6,"<a href=\"Forum\/ForumController.php.html#169\">Submitty\\Submitty\\Controllers\\Forum\\ForumController::alterPost<\/a>"],[0,2,"<a href=\"Forum\/ForumController.php.html#198\">Submitty\\Submitty\\Controllers\\Forum\\ForumController::showThreads<\/a>"],[0,1,"<a href=\"Forum\/ForumController.php.html#224\">Submitty\\Submitty\\Controllers\\Forum\\ForumController::showCreateThread<\/a>"],[0,3,"<a href=\"Forum\/ForumController.php.html#228\">Submitty\\Submitty\\Controllers\\Forum\\ForumController::getEditPostContent<\/a>"],[0,10,"<a href=\"Grading\/ElectronicGraderController.php.html#15\">Submitty\\Submitty\\Controllers\\Grading\\ElectronicGraderController::run<\/a>"],[0,25,"<a href=\"Grading\/ElectronicGraderController.php.html#53\">Submitty\\Submitty\\Controllers\\Grading\\ElectronicGraderController::showStatus<\/a>"],[0,47,"<a href=\"Grading\/ElectronicGraderController.php.html#205\">Submitty\\Submitty\\Controllers\\Grading\\ElectronicGraderController::showDetails<\/a>"],[100,1,"<a href=\"Grading\/ElectronicGraderController.php.html#264\">Submitty\\Submitty\\Controllers\\Grading\\ElectronicGraderController::anonymousFunction:264#2542<\/a>"],[0,26,"<a href=\"Grading\/ElectronicGraderController.php.html#353\">Submitty\\Submitty\\Controllers\\Grading\\ElectronicGraderController::adminTeamSubmit<\/a>"],[0,21,"<a href=\"Grading\/ElectronicGraderController.php.html#457\">Submitty\\Submitty\\Controllers\\Grading\\ElectronicGraderController::createTeamWithLeaderAndUsers<\/a>"],[0,29,"<a href=\"Grading\/ElectronicGraderController.php.html#528\">Submitty\\Submitty\\Controllers\\Grading\\ElectronicGraderController::showGrading<\/a>"],[100,1,"<a href=\"Grading\/ElectronicGraderController.php.html#591\">Submitty\\Submitty\\Controllers\\Grading\\ElectronicGraderController::anonymousFunction:591#6303<\/a>"],[0,42,"<a href=\"Grading\/ElectronicGraderController.php.html#672\">Submitty\\Submitty\\Controllers\\Grading\\ElectronicGraderController::saveSingleComponent<\/a>"],[100,1,"<a href=\"Grading\/ElectronicGraderController.php.html#703\">Submitty\\Submitty\\Controllers\\Grading\\ElectronicGraderController::anonymousFunction:703#7477<\/a>"],[0,7,"<a href=\"Grading\/ElectronicGraderController.php.html#856\">Submitty\\Submitty\\Controllers\\Grading\\ElectronicGraderController::addOneMark<\/a>"],[0,1,"<a href=\"Grading\/ElectronicGraderController.php.html#885\">Submitty\\Submitty\\Controllers\\Grading\\ElectronicGraderController::saveGradeableComment<\/a>"],[0,9,"<a href=\"Grading\/ElectronicGraderController.php.html#895\">Submitty\\Submitty\\Controllers\\Grading\\ElectronicGraderController::getMarkDetails<\/a>"],[0,1,"<a href=\"Grading\/ElectronicGraderController.php.html#941\">Submitty\\Submitty\\Controllers\\Grading\\ElectronicGraderController::getGradeableComment<\/a>"],[0,5,"<a href=\"Grading\/ElectronicGraderController.php.html#950\">Submitty\\Submitty\\Controllers\\Grading\\ElectronicGraderController::getUsersThatGotTheMark<\/a>"],[0,15,"<a href=\"Grading\/ElectronicGraderController.php.html#978\">Submitty\\Submitty\\Controllers\\Grading\\ElectronicGraderController::getStats<\/a>"],[0,8,"<a href=\"Grading\/SimpleGraderController.php.html#9\">Submitty\\Submitty\\Controllers\\Grading\\SimpleGraderController::run<\/a>"],[0,10,"<a href=\"Grading\/SimpleGraderController.php.html#37\">Submitty\\Submitty\\Controllers\\Grading\\SimpleGraderController::printLab<\/a>"],[0,21,"<a href=\"Grading\/SimpleGraderController.php.html#105\">Submitty\\Submitty\\Controllers\\Grading\\SimpleGraderController::grade<\/a>"],[100,1,"<a href=\"Grading\/SimpleGraderController.php.html#161\">Submitty\\Submitty\\Controllers\\Grading\\SimpleGraderController::anonymousFunction:161#1384<\/a>"],[0,15,"<a href=\"Grading\/SimpleGraderController.php.html#166\">Submitty\\Submitty\\Controllers\\Grading\\SimpleGraderController::save<\/a>"],[0,11,"<a href=\"Grading\/SimpleGraderController.php.html#229\">Submitty\\Submitty\\Controllers\\Grading\\SimpleGraderController::UploadCSV<\/a>"],[0,3,"<a href=\"GradingController.php.html#12\">Submitty\\Submitty\\Controllers\\GradingController::run<\/a>"],[0,1,"<a href=\"HomePageController.php.html#21\">Submitty\\Submitty\\Controllers\\HomePageController::__construct<\/a>"],[0,4,"<a href=\"HomePageController.php.html#25\">Submitty\\Submitty\\Controllers\\HomePageController::run<\/a>"],[0,4,"<a href=\"HomePageController.php.html#42\">Submitty\\Submitty\\Controllers\\HomePageController::changePassword<\/a>"],[0,4,"<a href=\"HomePageController.php.html#55\">Submitty\\Submitty\\Controllers\\HomePageController::changeUserName<\/a>"],[0,1,"<a href=\"HomePageController.php.html#83\">Submitty\\Submitty\\Controllers\\HomePageController::showHomepage<\/a>"],[0,7,"<a href=\"MiscController.php.html#10\">Submitty\\Submitty\\Controllers\\MiscController::run<\/a>"],[0,31,"<a href=\"MiscController.php.html#34\">Submitty\\Submitty\\Controllers\\MiscController::checkValidAccess<\/a>"],[0,5,"<a href=\"MiscController.php.html#175\">Submitty\\Submitty\\Controllers\\MiscController::displayFile<\/a>"],[0,2,"<a href=\"MiscController.php.html#205\">Submitty\\Submitty\\Controllers\\MiscController::downloadFile<\/a>"],[0,6,"<a href=\"MiscController.php.html#225\">Submitty\\Submitty\\Controllers\\MiscController::downloadZip<\/a>"],[0,15,"<a href=\"MiscController.php.html#290\">Submitty\\Submitty\\Controllers\\MiscController::downloadAssignedZips<\/a>"],[0,1,"<a href=\"NavigationController.php.html#17\">Submitty\\Submitty\\Controllers\\NavigationController::__construct<\/a>"],[0,2,"<a href=\"NavigationController.php.html#21\">Submitty\\Submitty\\Controllers\\NavigationController::run<\/a>"],[0,1,"<a href=\"NavigationController.php.html#32\">Submitty\\Submitty\\Controllers\\NavigationController::noAccess<\/a>"],[0,3,"<a href=\"NavigationController.php.html#36\">Submitty\\Submitty\\Controllers\\NavigationController::navigationPage<\/a>"],[0,2,"<a href=\"NavigationController.php.html#69\">Submitty\\Submitty\\Controllers\\NavigationController::filterNoConfig<\/a>"],[0,2,"<a href=\"Student\/RainbowGradesController.php.html#10\">Submitty\\Submitty\\Controllers\\Student\\RainbowGradesController::run<\/a>"],[100,1,"<a href=\"Student\/SubmissionController.php.html#29\">Submitty\\Submitty\\Controllers\\Student\\SubmissionController::__construct<\/a>"],[73.68421052631578,10,"<a href=\"Student\/SubmissionController.php.html#35\">Submitty\\Submitty\\Controllers\\Student\\SubmissionController::run<\/a>"],[0,2,"<a href=\"Student\/SubmissionController.php.html#68\">Submitty\\Submitty\\Controllers\\Student\\SubmissionController::popUp<\/a>"],[85.71428571428571,12,"<a href=\"Student\/SubmissionController.php.html#75\">Submitty\\Submitty\\Controllers\\Student\\SubmissionController::showHomeworkPage<\/a>"],[0,17,"<a href=\"Student\/SubmissionController.php.html#138\">Submitty\\Submitty\\Controllers\\Student\\SubmissionController::ajaxValidGradeable<\/a>"],[0,30,"<a href=\"Student\/SubmissionController.php.html#248\">Submitty\\Submitty\\Controllers\\Student\\SubmissionController::ajaxBulkUpload<\/a>"],[0,28,"<a href=\"Student\/SubmissionController.php.html#405\">Submitty\\Submitty\\Controllers\\Student\\SubmissionController::ajaxUploadSplitItem<\/a>"],[0,10,"<a href=\"Student\/SubmissionController.php.html#627\">Submitty\\Submitty\\Controllers\\Student\\SubmissionController::ajaxDeleteSplitItem<\/a>"],[75.90361445783132,99,"<a href=\"Student\/SubmissionController.php.html#681\">Submitty\\Submitty\\Controllers\\Student\\SubmissionController::ajaxUploadSubmission<\/a>"],[100,6,"<a href=\"Student\/SubmissionController.php.html#1120\">Submitty\\Submitty\\Controllers\\Student\\SubmissionController::uploadResult<\/a>"],[75,20,"<a href=\"Student\/SubmissionController.php.html#1152\">Submitty\\Submitty\\Controllers\\Student\\SubmissionController::updateSubmissionVersion<\/a>"],[84.21052631578947,6,"<a href=\"Student\/SubmissionController.php.html#1280\">Submitty\\Submitty\\Controllers\\Student\\SubmissionController::checkRefresh<\/a>"],[0,9,"<a href=\"Student\/TeamController.php.html#10\">Submitty\\Submitty\\Controllers\\Student\\TeamController::run<\/a>"],[0,8,"<a href=\"Student\/TeamController.php.html#40\">Submitty\\Submitty\\Controllers\\Student\\TeamController::createNewTeam<\/a>"],[0,8,"<a href=\"Student\/TeamController.php.html#86\">Submitty\\Submitty\\Controllers\\Student\\TeamController::leaveTeam<\/a>"],[0,14,"<a href=\"Student\/TeamController.php.html#130\">Submitty\\Submitty\\Controllers\\Student\\TeamController::sendInvitation<\/a>"],[0,11,"<a href=\"Student\/TeamController.php.html#201\">Submitty\\Submitty\\Controllers\\Student\\TeamController::acceptInvitation<\/a>"],[0,10,"<a href=\"Student\/TeamController.php.html#258\">Submitty\\Submitty\\Controllers\\Student\\TeamController::cancelInvitation<\/a>"],[0,4,"<a href=\"Student\/TeamController.php.html#308\">Submitty\\Submitty\\Controllers\\Student\\TeamController::seekTeam<\/a>"],[0,4,"<a href=\"Student\/TeamController.php.html#327\">Submitty\\Submitty\\Controllers\\Student\\TeamController::stopSeekTeam<\/a>"],[0,4,"<a href=\"Student\/TeamController.php.html#346\">Submitty\\Submitty\\Controllers\\Student\\TeamController::showPage<\/a>"],[0,4,"<a href=\"StudentController.php.html#10\">Submitty\\Submitty\\Controllers\\StudentController::run<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

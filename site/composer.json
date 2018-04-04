@@ -1,0 +1,38 @@
+{
+  "name": "submitty/submitty",
+  "type": "project",
+  "homepage": "https://submitty.org",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Submitty Team",
+      "homepage": "https://github.com/Submitty/Submitty/blob/master/AUTHORS.md",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "submitty@googlegroups.com",
+    "issues": "https://github.com/Submitty/Submitty/issues",
+    "docs": "https://submitty.org"
+  },
+  "require": {
+
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5.7",
+    "phpdocumentor/reflection": "dev-develop@dev",
+    "phpdocumentor/flyfinder": "^1@beta",
+    "phpdocumentor/phpdocumentor": "^3.0@dev",
+    "php-coveralls/php-coveralls": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Submitty\\Submitty\\": "app/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Submitty\\Submitty\\": "tests/"
+    }
+  }
+}
