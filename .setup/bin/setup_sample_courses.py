@@ -155,7 +155,7 @@ def main():
     if today.month < 7:
         semester = 'Spring'
 
-    list_of_courses_file = "/usr/local/submitty/site/app/views/current_courses.php"
+    list_of_courses_file = "/usr/local/submitty/site/app/Views/current_courses.php"
     with open(list_of_courses_file, "w") as courses_file:
         courses_file.write("")
         for course_id in courses.keys():

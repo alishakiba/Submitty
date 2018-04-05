@@ -78,8 +78,8 @@ Please contact system administrators if you believe this is a mistake.
 HTML;
 
 
-	if (file_exists("/usr/local/submitty/site/app/views/current_courses.php")) {
-	   $courselist = file_get_contents("/usr/local/submitty/site/app/views/current_courses.php");
+	if (file_exists("/usr/local/submitty/site/app/Views/current_courses.php")) {
+	   $courselist = file_get_contents("/usr/local/submitty/site/app/Views/current_courses.php");
            $return .= <<<HTML
 <br /><br />
 Perhaps you are looking for one of these courses:<br /><br />
