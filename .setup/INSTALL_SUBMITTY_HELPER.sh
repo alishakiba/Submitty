@@ -415,9 +415,7 @@ echo -e "Copy the submission website"
 
 # copy the website from the repo
 rsync -rtz   ${SUBMITTY_REPOSITORY}/site   ${SUBMITTY_INSTALL_DIR}
-pushd ${SUBMITTY_INSTALL_DIR}/site
-/usr/local/bin/composer install
-popd
+composer install
 
 # set special user $HWPHP_USER as owner & group of all website files
 find ${SUBMITTY_INSTALL_DIR}/site -exec chown $HWPHP_USER:$HWPHP_USER {} \;
