@@ -16,7 +16,7 @@ use Submitty\Submitty\Libraries\Utils;
  *
  * @TODO: Replace this with memcached once we are using that as this is not a very good model
  *
- * @package Submitty\Submitty\models
+ * @package Submitty\Submitty\Models
  */
 class GradeableAutogradingConfig extends AbstractModel {
     protected static $config_store = array();

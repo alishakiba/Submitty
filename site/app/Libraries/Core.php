@@ -104,8 +104,8 @@ class Core {
     }
 
     public function loadAuthentication() {
-        $auth_class = "\\Submitty\Submitty\\authentication\\".$this->config->getAuthentication();
-        if (!is_subclass_of($auth_class, 'Submitty\Submitty\authentication\AbstractAuthentication')) {
+        $auth_class = "\\Submitty\Submitty\\Authentication\\".$this->config->getAuthentication();
+        if (!is_subclass_of($auth_class, 'Submitty\Submitty\Authentication\AbstractAuthentication')) {
             throw new \Exception("Invalid module specified for Authentication. All modules should implement the AbstractAuthentication interface.");
         }
         $this->authentication = new $auth_class($this);

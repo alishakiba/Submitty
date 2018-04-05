@@ -54,7 +54,7 @@ class AdminGradeable extends AbstractModel {
     /** @property @var string Iris Bucket to place gradeable */
     protected $g_syllabus_bucket = -1;
 
-    /** @property @var \Submitty\Submitty\models\GradeableComponent[] */
+    /** @property @var \Submitty\Submitty\Models\GradeableComponent[] */
     protected $old_components;
     /** @property @var same info as above but encoded */
     protected $old_components_json = "{}";

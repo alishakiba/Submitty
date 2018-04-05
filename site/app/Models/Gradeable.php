@@ -135,7 +135,7 @@ class Gradeable extends AbstractModel {
     /** @property @var bool Should the gradeable be graded by registration section (or by rotating section) */
     protected $grade_by_registration = true;
 
-    /** @property @var \Submitty\Submitty\models\GradeableComponent[] */
+    /** @property @var \Submitty\Submitty\Models\GradeableComponent[] */
     protected $components = array();
 
     /* Config variables that are only for electronic submissions */
@@ -283,10 +283,10 @@ class Gradeable extends AbstractModel {
     protected $total_peer_grading_non_extra_credit = 0;
     protected $total_peer_grading_extra_credit=0;
 
-    /** @property @var \Submitty\Submitty\models\User|null */
+    /** @property @var \Submitty\Submitty\Models\User|null */
     protected $user = null;
 
-    /** @property @var \Submitty\Submitty\models\Team|null */
+    /** @property @var \Submitty\Submitty\Models\Team|null */
     protected $team = null;
 
     protected $user_viewed_date = null;

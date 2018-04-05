@@ -2,7 +2,6 @@
 
 namespace Submitty\Submitty\Authentication;
 use Submitty\Submitty\Exceptions\AuthenticationException;
-use Submitty\Submitty\Libraries\Core;
 use Submitty\Submitty\Libraries\FileUtils;
 
 /**

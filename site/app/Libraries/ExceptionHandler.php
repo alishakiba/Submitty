@@ -63,7 +63,7 @@ class ExceptionHandler {
         $display_message = false;
         $is_base_exception = false;
         $log_exception = static::$log_exceptions;
-        if (is_a($exception, '\Submitty\Submitty\exceptions\BaseException')) {
+        if (is_a($exception, '\Submitty\Submitty\Exceptions\BaseException')) {
             /** @var BaseException $exception */
             $is_base_exception = true;
             $display_message = $exception->displayMessage();
@@ -77,7 +77,7 @@ class ExceptionHandler {
                              isset($frame['file']) ? $frame['file'] : 'unknown file',
                              isset($frame['line']) ? $frame['line'] : 'unknown line',
                              (isset($frame['class']))  ? $frame['class'].$frame['type'].$frame['function'] : $frame['function'],
-                             static::parseArgs(is_a($exception, '\Submitty\Submitty\exceptions\AuthenticationException') ? array() : $frame['args']));
+                             static::parseArgs(is_a($exception, '\Submitty\Submitty\Exceptions\AuthenticationException') ? array() : $frame['args']));
         }
         $trace_string = implode("\n", $trace_string);
 

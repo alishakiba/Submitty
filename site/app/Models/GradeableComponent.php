@@ -92,7 +92,7 @@ class GradeableComponent extends AbstractModel {
     /** @property @var bool Does this component use peer grading*/
     protected $is_peer = false;
 
-    /** @property @var \Submitty\Submitty\models\GradeableComponentMark[] */
+    /** @property @var \Submitty\Submitty\Models\GradeableComponentMark[] */
     protected $marks = array();
     
     /** @property @var bool has the grader of this component been modified*/

@@ -4,7 +4,6 @@ namespace Submitty\Submitty\Models;
 
 use Submitty\Submitty\Libraries\Core;
 use Submitty\Submitty\Libraries\GradeableType;
-//use Submitty\Submitty\libraries\Logger;
 
 class GradeSummary extends AbstractModel {
 

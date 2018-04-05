@@ -9,8 +9,6 @@ namespace Submitty\Submitty\Libraries;
  * or access (to *_access) logs which we can use to help debug certain issues people have with the system as well
  * as use for certain effects like monitoring usage for people suspected of cheating or the like. Primarily, we
  * always write to the *_error log for most of the methods here with only one method going to the *_access log.
- *
- * @package Submitty\Submitty\libraries
  */
 class Logger {
 

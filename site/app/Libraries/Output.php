@@ -60,10 +60,10 @@ class Output {
      * we are looking for.
      *
      * Output()->renderTemplate("Error", "errorPage", $message)
-     * Would load views\ErrorView->errorPage($message)
+     * Would load Views\ErrorView->errorPage($message)
      *
      * Output()->renderTemplate(array("submission", "Global"), "header")
-     * Would load views\submission\GlobalView->header()
+     * Would load Views\submission\GlobalView->header()
      *
      * @return string
      */
@@ -112,7 +112,7 @@ class Output {
      */
     private function getView($view) {
         if(!isset($this->loaded_views[$view])) {
-            $class = "Submitty\Submitty\\views\\{$view}View";
+            $class = "Submitty\\Submitty\\Views\\{$view}View";
             /** @noinspection PhpUndefinedMethodInspection */
             $this->loaded_views[$view] = new $class($this->core);
         }

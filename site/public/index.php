@@ -7,7 +7,7 @@ use Submitty\Submitty\Libraries\Logger;
 use Submitty\Submitty\Libraries\Utils;
 
 // Setup composer autoloader
-require_once(__DIR__.'../vendor/autoload.php');
+require_once(__DIR__.'/../vendor/autoload.php');
 
 /*
  * The user's umask is ignored for the user running php, so we need
@@ -39,7 +39,7 @@ function exception_handler($throwable) {
     $message = ExceptionHandler::handleException($throwable);
 
     // Any exceptions that always get shown we need to make sure to escape, especially for production
-    if (is_a($throwable, '\Submitty\Submitty\exceptions\BaseException')) {
+    if (is_a($throwable, '\Submitty\Submitty\Exceptions\BaseException')) {
         /** @var BaseException $throwable */
         if ($throwable->displayMessage()) {
             $message = htmlentities($message, ENT_QUOTES);

@@ -23,7 +23,7 @@ class GradeableVersion extends AbstractModel {
     protected $team_id;
     /** @property @var int */
     protected $version;
-    /** @property @var \Submitty\Submitty\models\GradeableComponent[] */
+    /** @property @var \Submitty\Submitty\Models\GradeableComponent[] */
     protected $components = array();
     protected $been_graded = false;
     /** @property @var float */
