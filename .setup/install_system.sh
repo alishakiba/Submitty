@@ -47,6 +47,15 @@ fi
 source ${CURRENT_DIR}/distro_setup/setup_distro.sh
 
 #################################################################
+# COMPOSER SETUP
+#################
+
+pushd /tmp
+curl -sS https://getcomposer.org/installer -o composer-setup.php
+sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+popd
+
+#################################################################
 # STACK SETUP
 #################
 
