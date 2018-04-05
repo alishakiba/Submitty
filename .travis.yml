@@ -123,7 +123,7 @@ before_script:
 
 script:
   # if these fail, travis fails
-  - pushd site
+  - pushd /usr/local/submitty/site
   - if [ ${INTEGRATION_SUITE} = false ]; then find -L . -path ./vendor -prune -o -name '*.php' -print0 | xargs -0 -n 1 -P 4 php -l; fi
   - if [ ${INTEGRATION_SUITE} = false ]; then vendor/bin/phpunit --version; fi
   - if [ ${INTEGRATION_SUITE} = false ]; then vendor/bin/phpunit --configuration tests/phpunit.xml; fi
